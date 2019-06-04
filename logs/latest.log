@@ -1,0 +1,283 @@
+[21:45:11] [Server thread/INFO]: Starting minecraft server version 1.14.1
+[21:45:11] [Server thread/INFO]: Loading properties
+[21:45:12] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-8043ebc-f690957 (MC: 1.14.1) (Implementing API version 1.14.1-R0.1-SNAPSHOT)
+[21:45:12] [Server thread/INFO]: Debug logging is disabled
+[21:45:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:45:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:45:12] [Server thread/INFO]: Default game type: SURVIVAL
+[21:45:12] [Server thread/INFO]: Generating keypair
+[21:45:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:45:12] [Server thread/INFO]: Using default channel type
+[21:45:17] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.0-SNAPSHOT
+[21:45:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:45:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:45:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:45:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:45:17] [Server thread/INFO]: Preparing level "world"
+[21:45:17] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[21:45:18] [Server thread/INFO]: Loaded 6 recipes
+[21:45:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:45:19] [Server thread/INFO]: View Distance: 10
+[21:45:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:45:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:45:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:45:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:45:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:45:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[21:45:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:45:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:45:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:45:19] [Server thread/INFO]: Mob Spawn Range: 6
+[21:45:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:45:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:45:19] [Server thread/INFO]: Max TNT Explosions: 100
+[21:45:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:45:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:45:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:45:20] [Server thread/INFO]: View Distance: 10
+[21:45:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:45:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:45:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:45:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:45:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:45:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[21:45:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:45:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:45:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Mob Spawn Range: 6
+[21:45:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:45:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:45:20] [Server thread/INFO]: Max TNT Explosions: 100
+[21:45:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:45:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:45:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:45:20] [Server thread/INFO]: View Distance: 10
+[21:45:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:45:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:45:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:45:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:45:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:45:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[21:45:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:45:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:45:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:45:20] [Server thread/INFO]: Mob Spawn Range: 6
+[21:45:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:45:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:45:20] [Server thread/INFO]: Max TNT Explosions: 100
+[21:45:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:45:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:45:20] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[21:45:22] [Server-Worker-5/INFO]: Preparing spawn area: 0%
+[21:45:22] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[21:45:22] [Server-Worker-6/INFO]: Preparing spawn area: 0%
+[21:45:22] [Server-Worker-7/INFO]: Preparing spawn area: 0%
+[21:45:22] [Server-Worker-7/INFO]: Preparing spawn area: 0%
+[21:45:22] [Server-Worker-7/INFO]: Preparing spawn area: 0%
+[21:45:23] [Server-Worker-7/INFO]: Preparing spawn area: 0%
+[21:45:23] [Server-Worker-5/INFO]: Preparing spawn area: 0%
+[21:45:24] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[21:45:24] [Server-Worker-1/INFO]: Preparing spawn area: 16%
+[21:45:25] [Server-Worker-1/INFO]: Preparing spawn area: 70%
+[21:45:25] [Server-Worker-7/INFO]: Preparing spawn area: 85%
+[21:45:26] [Server-Worker-7/INFO]: Preparing spawn area: 96%
+[21:45:26] [Server thread/INFO]: Time elapsed: 6053 ms
+[21:45:26] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[21:45:26] [Server-Worker-4/INFO]: Preparing spawn area: 0%
+[21:45:26] [Server-Worker-5/INFO]: Preparing spawn area: 0%
+[21:45:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[21:45:27] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[21:45:28] [Server-Worker-2/INFO]: Preparing spawn area: 61%
+[21:45:28] [Server-Worker-6/INFO]: Preparing spawn area: 76%
+[21:45:29] [Server-Worker-1/INFO]: Preparing spawn area: 90%
+[21:45:29] [Server thread/INFO]: Time elapsed: 3320 ms
+[21:45:29] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[21:45:29] [Server-Worker-5/INFO]: Preparing spawn area: 0%
+[21:45:30] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[21:45:30] [Server-Worker-5/INFO]: Preparing spawn area: 0%
+[21:45:31] [Server-Worker-7/INFO]: Preparing spawn area: 2%
+[21:45:31] [Server-Worker-5/INFO]: Preparing spawn area: 75%
+[21:45:31] [Server thread/INFO]: Time elapsed: 2298 ms
+[21:45:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.0-SNAPSHOT
+[21:45:32] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_PLAYER to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN_NEW to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value MENU_OPEN to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value NEXT_PAGE to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREVIOUS_PAGE to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value REMOVE_SKIN to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SELECT_SKIN to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DATA_DROPPED to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
+[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
+[21:45:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:45:32] [Server thread/INFO]: Done (14.752s)! For help, type "help"
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.0-SNAPSHOT[m
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[21:49:46] [User Authenticator #1/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
+[21:49:46] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:63148] logged in with entity id 243 at ([world]26.5, 71.0, 215.5)
+[21:50:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2423ms or 48 ticks behind
+[21:51:37] [User Authenticator #2/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
+[21:51:37] [Server thread/INFO]: Kensim48[/127.0.0.1:50742] logged in with entity id 1507 at ([world]-83.5565027523266, 64.0, 38.9469363737622)
+[21:52:07] [Server thread/INFO]: Kensim48 issued server command: /tp
+[21:52:17] [Server thread/INFO]: Kensim48 issued server command: /tp Floid_gg_99 Kensim48
+[21:52:17] [Server thread/INFO]: [Kensim48: Teleported Floid_gg_99 to Kensim48]
+[21:52:24] [Server thread/INFO]: Kensim48 hit the ground too hard
+[21:52:31] [Server thread/INFO]: Kensim48 issued server command: /tp Kensim48 Floid_gg_99
+[21:52:31] [Server thread/INFO]: [Kensim48: Teleported Kensim48 to Floid_gg_99]
+[21:53:49] [Server thread/INFO]: Kensim48 has made the advancement [Sweet Dreams]
+[21:54:10] [Server thread/INFO]: Kensim48 has made the advancement [Best Friends Forever]
+[21:55:05] [Server thread/INFO]: Floid_gg_99 has made the advancement [Stone Age]
+[21:57:28] [Server thread/INFO]: Floid_gg_99 has made the advancement [Sweet Dreams]
+[21:57:30] [Server thread/INFO]: Kensim48 lost connection: Disconnected
+[21:57:30] [Server thread/INFO]: Kensim48 left the game
+[21:57:35] [User Authenticator #3/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
+[21:57:36] [Server thread/INFO]: Kensim48[/127.0.0.1:50759] logged in with entity id 4491 at ([world]-92.68685928744036, 70.0, 16.699999988079064)
+[22:00:10] [Server thread/WARN]: Floid_gg_99 moved too quickly! -6.60032970679211,-7.078400001525878,-3.158536241045878
+[22:01:25] [Server thread/INFO]: Floid_gg_99 has made the advancement [Best Friends Forever]
+[22:05:18] [Server thread/INFO]: Floid_gg_99 has made the advancement [Getting an Upgrade]
+[22:06:34] [Server thread/INFO]: Kensim48 issued server command: /setw
+[22:06:39] [Server thread/INFO]: Kensim48 issued server command: /setworldspawn
+[22:06:39] [Server thread/INFO]: [Kensim48: Set the world spawn point to -92, 70, 20]
+[22:07:26] [User Authenticator #4/INFO]: UUID of player pewpewpew is d8df096d-2cbc-38dd-b560-78e426e8eee7
+[22:07:26] [Server thread/INFO]: pewpewpew[/116.89.24.104:58677] logged in with entity id 7883 at ([world]-94.5, 70.0, 10.5)
+[22:07:54] [Server thread/INFO]: Floid_gg_99 lost connection: Disconnected
+[22:07:54] [Server thread/INFO]: Floid_gg_99 left the game
+[22:07:56] [User Authenticator #5/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
+[22:07:56] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:64067] logged in with entity id 7936 at ([world]-93.14340389120449, 70.0, 22.69999998807907)
+[22:08:04] [Server thread/INFO]: Kensim48 issued server command: /op Floid_gg_99
+[22:08:04] [Server thread/INFO]: [Kensim48: Made Floid_gg_99 a server operator]
+[22:08:08] [Server thread/INFO]: Kensim48 issued server command: /op pewpewpew
+[22:08:08] [Server thread/INFO]: [Kensim48: Made pewpewpew a server operator]
+[22:08:36] [Server thread/INFO]: Kensim48 lost connection: Disconnected
+[22:08:36] [Server thread/INFO]: Kensim48 left the game
+[22:08:39] [Server thread/INFO]: pewpewpew lost connection: Disconnected
+[22:08:39] [Server thread/INFO]: pewpewpew left the game
+[22:08:44] [User Authenticator #6/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
+[22:08:44] [Server thread/INFO]: Kensim48[/127.0.0.1:50781] logged in with entity id 8227 at ([world]-95.6516621000843, 72.0, 17.091521960423968)
+[22:08:47] [User Authenticator #7/INFO]: UUID of player pewpewpew is d8df096d-2cbc-38dd-b560-78e426e8eee7
+[22:08:47] [Server thread/INFO]: pewpewpew[/116.89.24.104:58784] logged in with entity id 8228 at ([world]-112.58687158944049, 65.0, -4.699999988079071)
+[22:11:03] [Server thread/INFO]: Floid_gg_99 has made the advancement [Monster Hunter]
+[22:12:34] [Server thread/INFO]: pewpewpew lost connection: Disconnected
+[22:12:34] [Server thread/INFO]: pewpewpew left the game
+[22:17:27] [Server thread/INFO]: Kensim48 lost connection: Disconnected
+[22:17:27] [Server thread/INFO]: Kensim48 left the game
+[22:17:46] [User Authenticator #8/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
+[22:17:46] [Server thread/INFO]: Kensim48[/127.0.0.1:50800] logged in with entity id 14067 at ([world]-156.70968460912465, 12.0, -23.44332125388815)
+[22:20:24] [User Authenticator #9/INFO]: UUID of player pewpewpew is d8df096d-2cbc-38dd-b560-78e426e8eee7
+[22:20:24] [Server thread/INFO]: pewpewpew[/116.89.24.104:59748] logged in with entity id 16049 at ([world]-113.70913233949759, 65.0, -4.008092876157043)
+[22:23:43] [Server thread/INFO]: pewpewpew issued server command: /skin paul
+[22:25:29] [Server thread/INFO]: pewpewpew has made the advancement [Acquire Hardware]
+[22:25:48] [Server thread/INFO]: Floid_gg_99 lost connection: Disconnected
+[22:25:48] [Server thread/INFO]: Floid_gg_99 left the game
+[22:25:48] [Server thread/INFO]: pewpewpew has made the advancement [Isn't It Iron Pick]
+[22:26:16] [Server thread/INFO]: pewpewpew has made the advancement [Stone Age]
+[22:27:22] [User Authenticator #10/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
+[22:27:22] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:65106] logged in with entity id 18241 at ([world]-93.33881423202304, 70.0, 12.57553374039879)
+[22:35:11] [Server thread/INFO]: Kensim48 has made the advancement [The Parrots and the Bats]
+[22:38:12] [Server thread/INFO]: Floid_gg_99 has made the advancement [Acquire Hardware]
+[22:38:34] [Server thread/INFO]: Floid_gg_99 has made the advancement [Isn't It Iron Pick]
+[22:41:16] [Server thread/INFO]: pewpewpew has made the advancement [Diamonds!]
+[22:43:57] [Server thread/INFO]: Floid_gg_99 lost connection: Disconnected
+[22:43:57] [Server thread/INFO]: Floid_gg_99 left the game
+[22:44:54] [User Authenticator #11/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
+[22:44:55] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:49693] logged in with entity id 27294 at ([world]-139.35799719215788, 12.0, 17.69999998807907)
+[22:46:09] [Server thread/INFO]: Kensim48 has made the advancement [A Seedy Place]
+[22:52:41] [Server thread/INFO]: Kensim48 has made the advancement [Ice Bucket Challenge]
+[23:00:31] [Server thread/INFO]: Floid_gg_99 has made the advancement [Suit Up]
+[23:01:02] [Async Chat Thread - #0/INFO]: <Kensim48> seeds[m
+[23:21:01] [Server thread/INFO]: Kensim48 issued server command: /list
+[23:27:32] [Server thread/INFO]: pewpewpew has made the advancement [Monster Hunter]
+[23:31:40] [Server thread/INFO]: Floid_gg_99 has made the advancement [A Seedy Place]
+[23:33:46] [Server thread/INFO]: Kensim48 issued server command: /save-all
+[23:33:46] [Server thread/INFO]: [Kensim48: Saved the game]
+[23:33:48] [Server thread/INFO]: Kensim48 issued server command: /stop
+[23:33:48] [Server thread/INFO]: [Kensim48: Stopping the server]
+[23:33:48] [Server thread/INFO]: Stopping server
+[23:33:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.0-SNAPSHOT
+[23:33:48] [Server thread/INFO]: Saving players
+[23:33:48] [Server thread/INFO]: Kensim48 lost connection: Server closed
+[23:33:48] [Server thread/INFO]: Kensim48 left the game
+[23:33:48] [Server thread/INFO]: pewpewpew lost connection: Server closed
+[23:33:48] [Server thread/INFO]: pewpewpew left the game
+[23:33:48] [Server thread/INFO]: Floid_gg_99 lost connection: Server closed
+[23:33:48] [Server thread/INFO]: Floid_gg_99 left the game
+[23:33:48] [Server thread/INFO]: Saving worlds
+[23:33:48] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[23:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:33:48] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[23:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:33:48] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[23:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
