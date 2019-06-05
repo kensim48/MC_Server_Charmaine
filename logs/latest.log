@@ -1,283 +1,390 @@
-[21:45:11] [Server thread/INFO]: Starting minecraft server version 1.14.1
-[21:45:11] [Server thread/INFO]: Loading properties
-[21:45:12] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-8043ebc-f690957 (MC: 1.14.1) (Implementing API version 1.14.1-R0.1-SNAPSHOT)
-[21:45:12] [Server thread/INFO]: Debug logging is disabled
-[21:45:12] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:45:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:45:12] [Server thread/INFO]: Default game type: SURVIVAL
-[21:45:12] [Server thread/INFO]: Generating keypair
-[21:45:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:45:12] [Server thread/INFO]: Using default channel type
-[21:45:17] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.0-SNAPSHOT
-[21:45:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:45:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:45:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:45:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:45:17] [Server thread/INFO]: Preparing level "world"
-[21:45:17] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[21:45:18] [Server thread/INFO]: Loaded 6 recipes
-[21:45:19] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:45:19] [Server thread/INFO]: View Distance: 10
-[21:45:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:45:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:45:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:45:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:45:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:45:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[21:45:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:45:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:45:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:45:19] [Server thread/INFO]: Mob Spawn Range: 6
-[21:45:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:45:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:45:19] [Server thread/INFO]: Max TNT Explosions: 100
-[21:45:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[21:45:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:45:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:45:20] [Server thread/INFO]: View Distance: 10
-[21:45:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:45:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:45:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:45:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:45:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:45:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[21:45:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:45:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:45:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Mob Spawn Range: 6
-[21:45:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:45:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:45:20] [Server thread/INFO]: Max TNT Explosions: 100
-[21:45:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[21:45:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:45:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:45:20] [Server thread/INFO]: View Distance: 10
-[21:45:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:45:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:45:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:45:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:45:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:45:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[21:45:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:45:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:45:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:45:20] [Server thread/INFO]: Mob Spawn Range: 6
-[21:45:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:45:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:45:20] [Server thread/INFO]: Max TNT Explosions: 100
-[21:45:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[21:45:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:45:20] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[21:45:22] [Server-Worker-5/INFO]: Preparing spawn area: 0%
-[21:45:22] [Server-Worker-2/INFO]: Preparing spawn area: 0%
-[21:45:22] [Server-Worker-6/INFO]: Preparing spawn area: 0%
-[21:45:22] [Server-Worker-7/INFO]: Preparing spawn area: 0%
-[21:45:22] [Server-Worker-7/INFO]: Preparing spawn area: 0%
-[21:45:22] [Server-Worker-7/INFO]: Preparing spawn area: 0%
-[21:45:23] [Server-Worker-7/INFO]: Preparing spawn area: 0%
-[21:45:23] [Server-Worker-5/INFO]: Preparing spawn area: 0%
-[21:45:24] [Server-Worker-2/INFO]: Preparing spawn area: 0%
-[21:45:24] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[21:45:25] [Server-Worker-1/INFO]: Preparing spawn area: 70%
-[21:45:25] [Server-Worker-7/INFO]: Preparing spawn area: 85%
-[21:45:26] [Server-Worker-7/INFO]: Preparing spawn area: 96%
-[21:45:26] [Server thread/INFO]: Time elapsed: 6053 ms
-[21:45:26] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[21:45:26] [Server-Worker-4/INFO]: Preparing spawn area: 0%
-[21:45:26] [Server-Worker-5/INFO]: Preparing spawn area: 0%
-[21:45:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[21:45:27] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[21:45:28] [Server-Worker-2/INFO]: Preparing spawn area: 61%
-[21:45:28] [Server-Worker-6/INFO]: Preparing spawn area: 76%
-[21:45:29] [Server-Worker-1/INFO]: Preparing spawn area: 90%
-[21:45:29] [Server thread/INFO]: Time elapsed: 3320 ms
-[21:45:29] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[21:45:29] [Server-Worker-5/INFO]: Preparing spawn area: 0%
-[21:45:30] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[21:45:30] [Server-Worker-5/INFO]: Preparing spawn area: 0%
-[21:45:31] [Server-Worker-7/INFO]: Preparing spawn area: 2%
-[21:45:31] [Server-Worker-5/INFO]: Preparing spawn area: 75%
-[21:45:31] [Server thread/INFO]: Time elapsed: 2298 ms
-[21:45:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.0-SNAPSHOT
-[21:45:32] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_PLAYER to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN_NEW to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value MENU_OPEN to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value NEXT_PAGE to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREVIOUS_PAGE to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value REMOVE_SKIN to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SELECT_SKIN to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DATA_DROPPED to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
-[21:45:32] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
-[21:45:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:45:32] [Server thread/INFO]: Done (14.752s)! For help, type "help"
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.0-SNAPSHOT[m
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[21:45:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[21:49:46] [User Authenticator #1/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
-[21:49:46] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:63148] logged in with entity id 243 at ([world]26.5, 71.0, 215.5)
-[21:50:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2423ms or 48 ticks behind
-[21:51:37] [User Authenticator #2/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
-[21:51:37] [Server thread/INFO]: Kensim48[/127.0.0.1:50742] logged in with entity id 1507 at ([world]-83.5565027523266, 64.0, 38.9469363737622)
-[21:52:07] [Server thread/INFO]: Kensim48 issued server command: /tp
-[21:52:17] [Server thread/INFO]: Kensim48 issued server command: /tp Floid_gg_99 Kensim48
-[21:52:17] [Server thread/INFO]: [Kensim48: Teleported Floid_gg_99 to Kensim48]
-[21:52:24] [Server thread/INFO]: Kensim48 hit the ground too hard
-[21:52:31] [Server thread/INFO]: Kensim48 issued server command: /tp Kensim48 Floid_gg_99
-[21:52:31] [Server thread/INFO]: [Kensim48: Teleported Kensim48 to Floid_gg_99]
-[21:53:49] [Server thread/INFO]: Kensim48 has made the advancement [Sweet Dreams]
-[21:54:10] [Server thread/INFO]: Kensim48 has made the advancement [Best Friends Forever]
-[21:55:05] [Server thread/INFO]: Floid_gg_99 has made the advancement [Stone Age]
-[21:57:28] [Server thread/INFO]: Floid_gg_99 has made the advancement [Sweet Dreams]
-[21:57:30] [Server thread/INFO]: Kensim48 lost connection: Disconnected
-[21:57:30] [Server thread/INFO]: Kensim48 left the game
-[21:57:35] [User Authenticator #3/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
-[21:57:36] [Server thread/INFO]: Kensim48[/127.0.0.1:50759] logged in with entity id 4491 at ([world]-92.68685928744036, 70.0, 16.699999988079064)
-[22:00:10] [Server thread/WARN]: Floid_gg_99 moved too quickly! -6.60032970679211,-7.078400001525878,-3.158536241045878
-[22:01:25] [Server thread/INFO]: Floid_gg_99 has made the advancement [Best Friends Forever]
-[22:05:18] [Server thread/INFO]: Floid_gg_99 has made the advancement [Getting an Upgrade]
-[22:06:34] [Server thread/INFO]: Kensim48 issued server command: /setw
-[22:06:39] [Server thread/INFO]: Kensim48 issued server command: /setworldspawn
-[22:06:39] [Server thread/INFO]: [Kensim48: Set the world spawn point to -92, 70, 20]
-[22:07:26] [User Authenticator #4/INFO]: UUID of player pewpewpew is d8df096d-2cbc-38dd-b560-78e426e8eee7
-[22:07:26] [Server thread/INFO]: pewpewpew[/116.89.24.104:58677] logged in with entity id 7883 at ([world]-94.5, 70.0, 10.5)
-[22:07:54] [Server thread/INFO]: Floid_gg_99 lost connection: Disconnected
-[22:07:54] [Server thread/INFO]: Floid_gg_99 left the game
-[22:07:56] [User Authenticator #5/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
-[22:07:56] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:64067] logged in with entity id 7936 at ([world]-93.14340389120449, 70.0, 22.69999998807907)
-[22:08:04] [Server thread/INFO]: Kensim48 issued server command: /op Floid_gg_99
-[22:08:04] [Server thread/INFO]: [Kensim48: Made Floid_gg_99 a server operator]
-[22:08:08] [Server thread/INFO]: Kensim48 issued server command: /op pewpewpew
-[22:08:08] [Server thread/INFO]: [Kensim48: Made pewpewpew a server operator]
-[22:08:36] [Server thread/INFO]: Kensim48 lost connection: Disconnected
-[22:08:36] [Server thread/INFO]: Kensim48 left the game
-[22:08:39] [Server thread/INFO]: pewpewpew lost connection: Disconnected
-[22:08:39] [Server thread/INFO]: pewpewpew left the game
-[22:08:44] [User Authenticator #6/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
-[22:08:44] [Server thread/INFO]: Kensim48[/127.0.0.1:50781] logged in with entity id 8227 at ([world]-95.6516621000843, 72.0, 17.091521960423968)
-[22:08:47] [User Authenticator #7/INFO]: UUID of player pewpewpew is d8df096d-2cbc-38dd-b560-78e426e8eee7
-[22:08:47] [Server thread/INFO]: pewpewpew[/116.89.24.104:58784] logged in with entity id 8228 at ([world]-112.58687158944049, 65.0, -4.699999988079071)
-[22:11:03] [Server thread/INFO]: Floid_gg_99 has made the advancement [Monster Hunter]
-[22:12:34] [Server thread/INFO]: pewpewpew lost connection: Disconnected
-[22:12:34] [Server thread/INFO]: pewpewpew left the game
-[22:17:27] [Server thread/INFO]: Kensim48 lost connection: Disconnected
-[22:17:27] [Server thread/INFO]: Kensim48 left the game
-[22:17:46] [User Authenticator #8/INFO]: UUID of player Kensim48 is 5af079f7-c62e-3404-9048-baa01bab10a3
-[22:17:46] [Server thread/INFO]: Kensim48[/127.0.0.1:50800] logged in with entity id 14067 at ([world]-156.70968460912465, 12.0, -23.44332125388815)
-[22:20:24] [User Authenticator #9/INFO]: UUID of player pewpewpew is d8df096d-2cbc-38dd-b560-78e426e8eee7
-[22:20:24] [Server thread/INFO]: pewpewpew[/116.89.24.104:59748] logged in with entity id 16049 at ([world]-113.70913233949759, 65.0, -4.008092876157043)
-[22:23:43] [Server thread/INFO]: pewpewpew issued server command: /skin paul
-[22:25:29] [Server thread/INFO]: pewpewpew has made the advancement [Acquire Hardware]
-[22:25:48] [Server thread/INFO]: Floid_gg_99 lost connection: Disconnected
-[22:25:48] [Server thread/INFO]: Floid_gg_99 left the game
-[22:25:48] [Server thread/INFO]: pewpewpew has made the advancement [Isn't It Iron Pick]
-[22:26:16] [Server thread/INFO]: pewpewpew has made the advancement [Stone Age]
-[22:27:22] [User Authenticator #10/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
-[22:27:22] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:65106] logged in with entity id 18241 at ([world]-93.33881423202304, 70.0, 12.57553374039879)
-[22:35:11] [Server thread/INFO]: Kensim48 has made the advancement [The Parrots and the Bats]
-[22:38:12] [Server thread/INFO]: Floid_gg_99 has made the advancement [Acquire Hardware]
-[22:38:34] [Server thread/INFO]: Floid_gg_99 has made the advancement [Isn't It Iron Pick]
-[22:41:16] [Server thread/INFO]: pewpewpew has made the advancement [Diamonds!]
-[22:43:57] [Server thread/INFO]: Floid_gg_99 lost connection: Disconnected
-[22:43:57] [Server thread/INFO]: Floid_gg_99 left the game
-[22:44:54] [User Authenticator #11/INFO]: UUID of player Floid_gg_99 is bb91b1e5-6303-3250-b09a-d091d05c74dd
-[22:44:55] [Server thread/INFO]: Floid_gg_99[/115.66.48.171:49693] logged in with entity id 27294 at ([world]-139.35799719215788, 12.0, 17.69999998807907)
-[22:46:09] [Server thread/INFO]: Kensim48 has made the advancement [A Seedy Place]
-[22:52:41] [Server thread/INFO]: Kensim48 has made the advancement [Ice Bucket Challenge]
-[23:00:31] [Server thread/INFO]: Floid_gg_99 has made the advancement [Suit Up]
-[23:01:02] [Async Chat Thread - #0/INFO]: <Kensim48> seeds[m
-[23:21:01] [Server thread/INFO]: Kensim48 issued server command: /list
-[23:27:32] [Server thread/INFO]: pewpewpew has made the advancement [Monster Hunter]
-[23:31:40] [Server thread/INFO]: Floid_gg_99 has made the advancement [A Seedy Place]
-[23:33:46] [Server thread/INFO]: Kensim48 issued server command: /save-all
-[23:33:46] [Server thread/INFO]: [Kensim48: Saved the game]
-[23:33:48] [Server thread/INFO]: Kensim48 issued server command: /stop
-[23:33:48] [Server thread/INFO]: [Kensim48: Stopping the server]
-[23:33:48] [Server thread/INFO]: Stopping server
-[23:33:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.0-SNAPSHOT
-[23:33:48] [Server thread/INFO]: Saving players
-[23:33:48] [Server thread/INFO]: Kensim48 lost connection: Server closed
-[23:33:48] [Server thread/INFO]: Kensim48 left the game
-[23:33:48] [Server thread/INFO]: pewpewpew lost connection: Server closed
-[23:33:48] [Server thread/INFO]: pewpewpew left the game
-[23:33:48] [Server thread/INFO]: Floid_gg_99 lost connection: Server closed
-[23:33:48] [Server thread/INFO]: Floid_gg_99 left the game
-[23:33:48] [Server thread/INFO]: Saving worlds
-[23:33:48] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[23:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:33:48] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[23:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:33:48] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[23:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3575ms or 71 ticks behind
+[00:01:11] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:01:20] [Spigot Watchdog Thread/ERROR]: The server has stopped responding! This is (probably) not a Spigot bug.
+[00:01:21] [Spigot Watchdog Thread/ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
+[00:01:23] [Spigot Watchdog Thread/ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+[00:01:26] [Spigot Watchdog Thread/ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
+[00:01:28] [Spigot Watchdog Thread/ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+[00:01:30] [Spigot Watchdog Thread/ERROR]: If you are unsure or still think this is a Spigot bug, please report to https://www.spigotmc.org/
+[00:01:32] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[00:01:39] [Spigot Watchdog Thread/ERROR]: Spigot version: git-Spigot-8043ebc-f690957 (MC: 1.14.1)
+[00:01:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:01:43] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[00:01:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 85742ms or 1714 ticks behind
+[00:02:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31258ms or 625 ticks behind
+[00:02:36] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:02:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:02:52] [Spigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+[00:02:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2887ms or 57 ticks behind
+[00:02:59] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:03:17] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.Optional.of(Optional.java:120)
+[00:03:22] [Spigot Watchdog Thread/ERROR]: 		app//com.mojang.datafixers.util.Either$Left.left(Either.java:54)
+[00:03:28] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.ChunkProviderServer.tickChunks(ChunkProviderServer.java:299)
+[00:03:31] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.ChunkProviderServer.tick(ChunkProviderServer.java:264)
+[00:03:33] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:257)
+[00:03:37] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1057)
+[00:03:39] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396)
+[00:03:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32287ms or 645 ticks behind
+[00:03:40] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:956)
+[00:03:42] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:801)
+[00:03:45] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:03:47] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:03:49] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[00:03:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3189ms or 63 ticks behind
+[00:05:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 85690ms or 1713 ticks behind
+[00:06:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20937ms or 418 ticks behind
+[00:07:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 47991ms or 959 ticks behind
+[00:08:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30835ms or 616 ticks behind
+[00:09:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 67241ms or 1344 ticks behind
+[00:10:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44491ms or 889 ticks behind
+[00:10:33] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:10:36] [Spigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[00:10:38] [Spigot Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: RUNNABLE
+[00:10:40] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:10:46] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[00:10:49] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+[00:10:51] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+[00:10:53] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:10:55] [Spigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[00:10:57] [Spigot Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[00:11:01] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:11:04] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Native Method)
+[00:11:06] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[00:11:08] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[00:11:11] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+[00:11:13] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:11:16] [Spigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[00:11:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36591ms or 731 ticks behind
+[00:11:16] [Spigot Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[00:11:18] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:11:21] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:11:22] [Spigot Watchdog Thread/ERROR]: Current Thread: Common-Cleaner
+[00:11:24] [Spigot Watchdog Thread/ERROR]: 	PID: 9 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:11:26] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:11:27] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Native Method)
+[00:11:31] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[00:11:33] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+[00:11:36] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:11:37] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+[00:11:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:11:44] [Spigot Watchdog Thread/ERROR]: Current Thread: Server-Worker-1
+[00:11:46] [Spigot Watchdog Thread/ERROR]: 	PID: 14 | Suspended: false | Native: false | State: WAITING
+[00:11:49] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:11:53] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+[00:11:56] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+[00:11:58] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+[00:12:00] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[00:12:03] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:12:06] [Spigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[00:12:07] [Spigot Watchdog Thread/ERROR]: 	PID: 15 | Suspended: false | Native: false | State: WAITING
+[00:12:09] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:12:12] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Native Method)
+[00:12:16] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Object.java:328)
+[00:12:18] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.TimerThread.mainLoop(Timer.java:527)
+[00:12:20] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.TimerThread.run(Timer.java:506)
+[00:12:21] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:12:24] [Spigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
+[00:12:27] [Spigot Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: WAITING
+[00:12:31] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:12:33] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Native Method)
+[00:12:35] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+[00:12:36] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:12:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:12:40] [Spigot Watchdog Thread/ERROR]: Current Thread: Server Infinisleeper
+[00:12:40] [Spigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:12:42] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:12:45] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.sleep(Native Method)
+[00:12:46] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.DedicatedServer$1.run(DedicatedServer.java:69)
+[00:12:48] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:12:48] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:12:50] [Spigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+[00:12:52] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:12:53] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.stream.MatchOps.lambda$makeRef$0(MatchOps.java:97)
+[00:12:54] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.stream.MatchOps$$Lambda$830/0x0000000840458840.get(Unknown Source)
+[00:12:56] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+[00:12:57] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+[00:12:59] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[00:13:03] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.stream.ReferencePipeline.noneMatch(ReferencePipeline.java:538)
+[00:13:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.PlayerChunkMap.d(PlayerChunkMap.java:715)
+[00:13:08] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.ChunkProviderServer.tickChunks(ChunkProviderServer.java:309)
+[00:13:10] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.ChunkProviderServer.tick(ChunkProviderServer.java:264)
+[00:13:14] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:257)
+[00:13:17] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1057)
+[00:13:21] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396)
+[00:13:24] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:956)
+[00:13:25] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:801)
+[00:13:27] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:13:29] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:13:31] [Spigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[00:13:34] [Spigot Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: RUNNABLE
+[00:13:36] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:13:39] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:13:42] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-3
+[00:13:44] [Spigot Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
+[00:13:46] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:13:49] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.Arrays.copyOf(Arrays.java:3745)
+[00:13:51] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:172)
+[00:13:52] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:538)
+[00:13:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 139848ms or 2796 ticks behind
+[00:13:56] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.StringBuilder.append(StringBuilder.java:174)
+[00:13:58] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.getProperty(TerminalLineSettings.java:126)
+[00:14:00] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.getProperty(TerminalLineSettings.java:112)
+[00:14:01] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.UnixTerminal.getWidth(UnixTerminal.java:76)
+[00:14:03] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawBuffer(ConsoleReader.java:879)
+[00:14:06] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawBuffer(ConsoleReader.java:898)
+[00:14:08] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawLine(ConsoleReader.java:608)
+[00:14:11] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_14_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:43)
+[00:14:14] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:14:16] [Spigot Watchdog Thread/ERROR]: Current Thread: Server console handler
+[00:14:20] [Spigot Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: true | State: RUNNABLE
+[00:14:25] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:14:33] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@11.0.3/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+[00:14:35] [Spigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[00:14:37] [Spigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[00:14:39] [Spigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[00:14:41] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:14:44] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.io.FileInputStream.readBytes(Native Method)
+[00:14:49] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.io.FileInputStream.read(FileInputStream.java:279)
+[00:14:50] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+[00:14:53] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+[00:14:57] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[00:14:59] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+[00:15:04] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+[00:15:08] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[00:15:11] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[00:15:13] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[00:15:16] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+[00:15:19] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:95)
+[00:15:20] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Watchdog Thread
+[00:15:24] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
+[00:15:25] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:27] [Spigot Watchdog Thread/ERROR]: 		java.management@11.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[00:15:30] [Spigot Watchdog Thread/ERROR]: 		java.management@11.0.3/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:502)
+[00:15:32] [Spigot Watchdog Thread/ERROR]: 		java.management@11.0.3/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:490)
+[00:15:34] [Spigot Watchdog Thread/ERROR]: 		app//org.spigotmc.WatchdogThread.run(WatchdogThread.java:86)
+[00:15:36] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[00:15:41] [Spigot Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:45] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:46] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Native Method)
+[00:15:48] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.TimerThread.mainLoop(Timer.java:553)
+[00:15:49] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.TimerThread.run(Timer.java:506)
+[00:15:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 103195ms or 2063 ticks behind
+[00:15:51] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:59] [Spigot Watchdog Thread/ERROR]: Current Thread: ObjectCleanerThread
+[00:16:01] [Spigot Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:16:08] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:16:13] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Native Method)
+[00:16:15] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[00:16:19] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+[00:16:21] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:16:24] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:16:25] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:16:32] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #0
+[00:16:33] [Spigot Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: RUNNABLE
+[00:16:35] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:16:38] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[00:16:40] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[00:16:43] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[00:16:45] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[00:16:47] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[00:16:51] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:16:54] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:16:55] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-0
+[00:16:57] [Spigot Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:16:59] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:17:02] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Object.wait(Native Method)
+[00:17:07] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.TimerThread.mainLoop(Timer.java:553)
+[00:17:10] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.TimerThread.run(Timer.java:506)
+[00:17:12] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:17:15] [Spigot Watchdog Thread/ERROR]: Current Thread: ExpiringMap-Expirer
+[00:17:20] [Spigot Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: false | State: WAITING
+[00:17:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:17:26] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+[00:17:30] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+[00:17:32] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+[00:17:35] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+[00:17:39] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:17:42] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+[00:17:44] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+[00:17:49] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[00:17:52] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:17:54] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:17:57] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #1
+[00:17:58] [Spigot Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: RUNNABLE
+[00:18:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 112892ms or 2257 ticks behind
+[00:18:01] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:18:03] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[00:18:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[00:18:08] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[00:18:09] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[00:18:10] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[00:18:12] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:18:14] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:18:17] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #2
+[00:18:20] [Spigot Watchdog Thread/ERROR]: 	PID: 52 | Suspended: false | Native: false | State: RUNNABLE
+[00:18:21] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:18:24] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[00:18:26] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[00:18:29] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[00:18:31] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[00:18:35] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[00:18:39] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:18:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:18:44] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #3
+[00:18:47] [Spigot Watchdog Thread/ERROR]: 	PID: 53 | Suspended: false | Native: false | State: RUNNABLE
+[00:18:49] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:18:51] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[00:18:53] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[00:18:55] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[00:18:57] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[00:18:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 43948ms or 878 ticks behind
+[00:19:00] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[00:19:02] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:19:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:19:08] [Spigot Watchdog Thread/ERROR]: Current Thread: process reaper
+[00:19:09] [Spigot Watchdog Thread/ERROR]: 	PID: 578 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:19:10] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:19:13] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+[00:19:18] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+[00:19:25] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[00:19:31] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[00:19:33] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[00:19:35] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+[00:19:37] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+[00:19:40] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[00:19:40] [Spigot Watchdog Thread/ERROR]: 		java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+[00:19:43] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:19:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34894ms or 697 ticks behind
+[00:20:05] [Spigot Watchdog Thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[00:20:15] [Spigot Watchdog Thread/INFO]: Stopping server
+[00:20:27] [Spigot Watchdog Thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.0-SNAPSHOT
+[00:21:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 64608ms or 1292 ticks behind
+[00:23:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 127349ms or 2546 ticks behind
+[00:23:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3606ms or 72 ticks behind
+[00:23:52] [Spigot Watchdog Thread/INFO]: Saving players
+[00:23:56] [Spigot Watchdog Thread/INFO]: Saving worlds
+[00:24:06] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[00:24:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27893ms or 557 ticks behind
+[00:25:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29777ms or 595 ticks behind
+[00:26:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 72757ms or 1455 ticks behind
+[00:27:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36149ms or 722 ticks behind
+[00:28:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 64795ms or 1295 ticks behind
+[00:29:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36399ms or 727 ticks behind
+[00:30:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44379ms or 887 ticks behind
+[00:31:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33357ms or 667 ticks behind
+[00:32:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15482ms or 309 ticks behind
+[00:32:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34398ms or 687 ticks behind
+[00:33:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22032ms or 440 ticks behind
+[00:34:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 68847ms or 1376 ticks behind
+[00:35:24] [Spigot Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:35:27] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[00:35:36] [Spigot Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:35:38] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[00:36:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 57524ms or 1150 ticks behind
+[00:37:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45818ms or 916 ticks behind
+[00:38:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 87364ms or 1747 ticks behind
+[00:39:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 56898ms or 1137 ticks behind
+[00:41:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 67671ms or 1353 ticks behind
+[00:41:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17827ms or 356 ticks behind
+[00:42:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29905ms or 598 ticks behind
+[00:45:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 141552ms or 2831 ticks behind
+[00:46:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45501ms or 910 ticks behind
+[00:47:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 50802ms or 1016 ticks behind
+[00:50:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 169502ms or 3390 ticks behind
+[00:51:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 58717ms or 1174 ticks behind
+[00:52:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4818ms or 96 ticks behind
+[00:53:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 66191ms or 1323 ticks behind
+[00:53:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2804ms or 56 ticks behind
+[00:54:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44223ms or 884 ticks behind
+[00:55:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 49096ms or 981 ticks behind
+[00:56:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9205ms or 184 ticks behind
+[00:56:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23187ms or 463 ticks behind
+[00:57:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5154ms or 103 ticks behind
+[00:59:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 144628ms or 2892 ticks behind
+[01:01:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 52143ms or 1042 ticks behind
+[01:03:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 107680ms or 2153 ticks behind
+[01:03:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34724ms or 694 ticks behind
+[01:05:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 56567ms or 1131 ticks behind
+[01:05:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14667ms or 293 ticks behind
+[01:05:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5122ms or 102 ticks behind
+[01:06:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7115ms or 142 ticks behind
+[01:06:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7683ms or 153 ticks behind
+[01:06:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2961ms or 59 ticks behind
+[01:07:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8460ms or 169 ticks behind
+[01:07:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12639ms or 252 ticks behind
+[01:09:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 70809ms or 1416 ticks behind
+[01:09:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12840ms or 256 ticks behind
+[01:09:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7043ms or 140 ticks behind
+[01:10:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[01:10:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4276ms or 85 ticks behind
+[01:11:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2431ms or 48 ticks behind
+[01:11:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8382ms or 167 ticks behind
+[01:12:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 41970ms or 839 ticks behind
+[01:12:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5484ms or 109 ticks behind
+[01:13:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6191ms or 123 ticks behind
+[01:13:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2242ms or 44 ticks behind
+[01:13:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10031ms or 200 ticks behind
+[01:14:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2797ms or 55 ticks behind
+[01:14:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5763ms or 115 ticks behind
+[01:15:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7299ms or 145 ticks behind
+[01:15:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8101ms or 162 ticks behind
+[01:16:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5784ms or 115 ticks behind
+[01:12:03] [Spigot Watchdog Thread/ERROR]: Failed to save chunk 0,2
+net.minecraft.server.v1_14_R1.ReportedException: Writing into PalettedContainer from multiple threads
+	at net.minecraft.server.v1_14_R1.DataPaletteBlock.a(SourceFile:45) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.DataPaletteBlock.a(SourceFile:202) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:271) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:620) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:585) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at net.minecraft.server.v1_14_R1.PlayerChunkMap.save(PlayerChunkMap.java:281) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.ChunkProviderServer.save(ChunkProviderServer.java:237) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.WorldServer.save(WorldServer.java:759) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.saveChunks(MinecraftServer.java:636) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:702) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:695) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:653) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at org.spigotmc.RestartCommand.restart(RestartCommand.java:119) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at org.spigotmc.RestartCommand.restart(RestartCommand.java:40) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	at org.spigotmc.WatchdogThread.run(WatchdogThread.java:95) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+Caused by: java.lang.IllegalStateException
+	at net.minecraft.server.v1_14_R1.DataPaletteBlock.a(SourceFile:42) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
+	... 24 more
+[01:17:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 90058ms or 1801 ticks behind
+[01:20:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 109697ms or 2193 ticks behind
+[01:20:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13233ms or 264 ticks behind
+[01:21:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25332ms or 506 ticks behind
+[01:21:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5935ms or 118 ticks behind
+[01:22:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19778ms or 395 ticks behind
+[01:22:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19129ms or 382 ticks behind
+[01:26:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 193982ms or 3879 ticks behind
+[01:26:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18386ms or 367 ticks behind
+[01:27:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8062ms or 161 ticks behind
+[01:27:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9106ms or 182 ticks behind
+[01:28:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18749ms or 374 ticks behind
+[01:28:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18198ms or 363 ticks behind
+[01:29:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 37400ms or 748 ticks behind
+[01:41:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 704456ms or 14089 ticks behind
+[01:47:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 329815ms or 6596 ticks behind
+[01:51:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 222071ms or 4441 ticks behind
+[01:54:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 192476ms or 3849 ticks behind
+[01:58:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 187231ms or 3744 ticks behind
+[02:03:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 304610ms or 6092 ticks behind
+[02:08:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 286833ms or 5736 ticks behind
+[02:15:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 432608ms or 8652 ticks behind
+[02:22:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 360926ms or 7218 ticks behind
+[02:29:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 433344ms or 8666 ticks behind
+[02:33:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 228153ms or 4563 ticks behind
+[02:38:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 292415ms or 5848 ticks behind
+[02:48:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 556137ms or 11122 ticks behind
