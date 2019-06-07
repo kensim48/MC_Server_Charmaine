@@ -509,6 +509,7 @@
       "minecraft:phantom": "2019-06-05 15:26:32 +0000",
       "minecraft:witch": "2019-06-05 12:25:39 +0000",
       "minecraft:cave_spider": "2019-06-05 14:51:56 +0000",
+      "minecraft:enderman": "2019-06-07 16:18:58 +0000",
       "minecraft:zombie": "2019-06-05 11:23:28 +0000"
     },
     "done": false
@@ -2300,13 +2301,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-06-05 12:40:51 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-06-05 12:40:51 +0000"
     },
@@ -2354,5 +2355,5 @@
     },
     "done": true
   },
-  "DataVersion": 1957
+  "DataVersion": 1963
 }
