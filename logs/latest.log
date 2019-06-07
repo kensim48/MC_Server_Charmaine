@@ -1,343 +1,1048 @@
-[13:52:44] [Server thread/INFO]: Starting minecraft server version 1.14.1
-[13:52:44] [Server thread/INFO]: Loading properties
-[13:52:45] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-8043ebc-f690957 (MC: 1.14.1) (Implementing API version 1.14.1-R0.1-SNAPSHOT)
-[13:52:45] [Server thread/INFO]: Debug logging is disabled
-[13:52:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:52:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:52:46] [Server thread/INFO]: Default game type: SURVIVAL
-[13:52:46] [Server thread/INFO]: Generating keypair
-[13:52:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:52:48] [Server thread/INFO]: Using epoll channel type
-[13:53:21] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.0-SNAPSHOT
-[13:53:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:53:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:53:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:53:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:53:21] [Server thread/INFO]: Preparing level "world"
-[13:53:22] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[13:54:31] [Server thread/INFO]: Loaded 6 recipes
-[13:54:35] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:54:35] [Server thread/INFO]: Max TNT Explosions: 100
-[13:54:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:54:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:54:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:54:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:54:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[13:54:35] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:54:35] [Server thread/INFO]: Mob Spawn Range: 6
-[13:54:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:54:35] [Server thread/INFO]: View Distance: 10
-[13:54:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:54:35] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:54:35] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:54:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:54:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:54:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:54:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:54:36] [Server thread/INFO]: Max TNT Explosions: 100
-[13:54:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:54:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:54:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:54:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:54:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[13:54:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:54:36] [Server thread/INFO]: Mob Spawn Range: 6
-[13:54:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:54:36] [Server thread/INFO]: View Distance: 10
-[13:54:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:54:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:54:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:54:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:54:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:54:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:54:37] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:54:37] [Server thread/INFO]: Max TNT Explosions: 100
-[13:54:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:54:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:54:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:54:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:54:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[13:54:37] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:54:37] [Server thread/INFO]: Mob Spawn Range: 6
-[13:54:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:54:37] [Server thread/INFO]: View Distance: 10
-[13:54:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:54:37] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:54:37] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:54:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:54:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:54:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:54:37] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:40] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:41] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:41] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:42] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:42] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:45] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:45] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:45] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:45] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:45] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:45] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:46] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:46] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:47] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:47] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:48] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:48] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:49] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:49] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:50] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:50] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:51] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:54:51] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[13:54:52] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[13:54:52] [Server-Worker-1/INFO]: Preparing spawn area: 2%
-[13:54:53] [Server-Worker-1/INFO]: Preparing spawn area: 3%
-[13:54:53] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:54:54] [Server-Worker-1/INFO]: Preparing spawn area: 5%
-[13:54:54] [Server-Worker-1/INFO]: Preparing spawn area: 6%
-[13:54:55] [Server-Worker-1/INFO]: Preparing spawn area: 7%
-[13:54:55] [Server-Worker-1/INFO]: Preparing spawn area: 8%
-[13:54:56] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[13:54:56] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[13:54:57] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[13:54:57] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[13:54:58] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[13:54:58] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[13:54:59] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[13:54:59] [Server-Worker-1/INFO]: Preparing spawn area: 12%
-[13:55:00] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:00] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[13:55:20] [Server-Worker-1/INFO]: Preparing spawn area: 23%
-[13:55:21] [Server-Worker-1/INFO]: Preparing spawn area: 34%
-[13:55:21] [Server-Worker-1/INFO]: Preparing spawn area: 43%
-[13:55:22] [Server-Worker-1/INFO]: Preparing spawn area: 58%
-[13:55:22] [Server-Worker-1/INFO]: Preparing spawn area: 71%
-[13:55:23] [Server-Worker-1/INFO]: Preparing spawn area: 84%
-[13:55:23] [Server-Worker-1/INFO]: Preparing spawn area: 90%
-[13:55:24] [Server-Worker-1/INFO]: Preparing spawn area: 93%
-[13:55:24] [Server thread/INFO]: Time elapsed: 47576 ms
-[13:55:24] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[13:55:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:27] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:28] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:28] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:29] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:29] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:30] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:31] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:31] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:31] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:32] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:32] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:33] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:33] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:34] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:34] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:35] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:35] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[13:55:36] [Server-Worker-1/INFO]: Preparing spawn area: 2%
-[13:55:36] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:37] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:37] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:38] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:38] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:39] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:39] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:40] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:40] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[13:55:41] [Server-Worker-1/INFO]: Preparing spawn area: 6%
-[13:55:41] [Server-Worker-1/INFO]: Preparing spawn area: 8%
-[13:55:42] [Server-Worker-1/INFO]: Preparing spawn area: 8%
-[13:55:42] [Server-Worker-1/INFO]: Preparing spawn area: 8%
-[13:55:43] [Server-Worker-1/INFO]: Preparing spawn area: 8%
-[13:55:43] [Server-Worker-1/INFO]: Preparing spawn area: 14%
-[13:55:44] [Server-Worker-1/INFO]: Preparing spawn area: 31%
-[13:55:44] [Server-Worker-1/INFO]: Preparing spawn area: 39%
-[13:55:45] [Server-Worker-1/INFO]: Preparing spawn area: 71%
-[13:55:45] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[13:55:46] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[13:55:46] [Server-Worker-1/INFO]: Preparing spawn area: 73%
-[13:55:47] [Server-Worker-1/INFO]: Preparing spawn area: 76%
-[13:55:47] [Server-Worker-1/INFO]: Preparing spawn area: 77%
-[13:55:48] [Server-Worker-1/INFO]: Preparing spawn area: 78%
-[13:55:48] [Server-Worker-1/INFO]: Preparing spawn area: 79%
-[13:55:49] [Server-Worker-1/INFO]: Preparing spawn area: 80%
-[13:55:49] [Server-Worker-1/INFO]: Preparing spawn area: 81%
-[13:55:50] [Server-Worker-1/INFO]: Preparing spawn area: 81%
-[13:55:50] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[13:55:51] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[13:55:51] [Server-Worker-1/INFO]: Preparing spawn area: 84%
-[13:55:52] [Server-Worker-1/INFO]: Preparing spawn area: 86%
-[13:55:52] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[13:55:53] [Server-Worker-1/INFO]: Preparing spawn area: 88%
-[13:55:53] [Server-Worker-1/INFO]: Preparing spawn area: 89%
-[13:55:54] [Server-Worker-1/INFO]: Preparing spawn area: 89%
-[13:55:54] [Server-Worker-1/INFO]: Preparing spawn area: 90%
-[13:55:55] [Server-Worker-1/INFO]: Preparing spawn area: 90%
-[13:55:55] [Server-Worker-1/INFO]: Preparing spawn area: 90%
-[13:55:56] [Server-Worker-1/INFO]: Preparing spawn area: 91%
-[13:55:57] [Server-Worker-1/INFO]: Preparing spawn area: 92%
-[13:55:57] [Server thread/INFO]: Time elapsed: 32528 ms
-[13:55:57] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[13:55:58] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:58] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:58] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:58] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:55:59] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:56:00] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:56:00] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:56:00] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:56:01] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[13:56:01] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[13:56:02] [Server-Worker-1/INFO]: Preparing spawn area: 3%
-[13:56:02] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[13:56:03] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[13:56:03] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[13:56:04] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[13:56:04] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[13:56:05] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[13:56:05] [Server-Worker-1/INFO]: Preparing spawn area: 68%
-[13:56:06] [Server thread/INFO]: Time elapsed: 8647 ms
-[13:56:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.0-SNAPSHOT
-[13:56:06] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[13:56:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:56:08] [Server thread/INFO]: Done (166.609s)! For help, type "help"
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.0-SNAPSHOT[m
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[13:56:09] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[13:56:11] [User Authenticator #1/INFO]: UUID of player CosmosWOHatred is 79a36e8f-a516-3fbe-9304-07c6a8d691f0
-[13:56:22] [Server thread/INFO]: CosmosWOHatred[/223.25.69.19:60672] logged in with entity id 1 at ([world]-4347.426412587969, 73.0, -891.5139198772338)
-[13:56:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12363ms or 247 ticks behind
-[13:56:44] [Server thread/INFO]: CosmosWOHatred lost connection: Disconnected
-[13:56:45] [Server thread/INFO]: CosmosWOHatred left the game
-[13:56:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9949ms or 198 ticks behind
-[13:57:29] [User Authenticator #2/INFO]: UUID of player BoBoChaCha is 9c555e0d-80dd-320f-ae54-8dca19983b8d
-[13:57:37] [Server thread/INFO]: BoBoChaCha[/218.212.11.141:49221] logged in with entity id 313 at ([world]-4231.527852636654, 82.0, 88.32812728005533)
-[13:57:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7736ms or 154 ticks behind
-[13:58:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2865ms or 57 ticks behind
-[13:58:08] [User Authenticator #3/INFO]: UUID of player charm_zzz is 09be90b1-85a3-3b8e-bd5b-8f23e3341529
-[13:58:08] [User Authenticator #4/INFO]: UUID of player CosmosWOHatred is 79a36e8f-a516-3fbe-9304-07c6a8d691f0
-[13:58:10] [Server thread/INFO]: charm_zzz[/121.6.67.22:61830] logged in with entity id 1184 at ([world]-4228.962741449094, 82.0, 88.77211126476818)
-[13:58:11] [Server thread/INFO]: CosmosWOHatred[/223.25.69.19:60718] logged in with entity id 1185 at ([world]-4346.149666104229, 73.0, -885.3416910318358)
-[13:58:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21646ms or 432 ticks behind
-[13:59:01] [User Authenticator #5/INFO]: UUID of player MikeEphe is dce89adf-a48c-3e93-970f-edbf02e8fc7c
-[13:59:08] [Server thread/INFO]: MikeEphe[/192.228.135.31:62460] logged in with entity id 1256 at ([world]527.0731540603298, 62.34384258557612, -666.3320023033415)
-[13:59:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24003ms or 480 ticks behind
-[13:59:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23610ms or 472 ticks behind
-[13:59:57] [Server thread/INFO]: charm_zzz lost connection: Disconnected
-[13:59:57] [Server thread/INFO]: charm_zzz left the game
-[14:00:19] [User Authenticator #6/INFO]: UUID of player SaphirBlue is 37feec18-ee62-3cef-a9bb-5adab9897b77
-[14:00:20] [Server thread/INFO]: SaphirBlue[/114.24.38.225:50206] logged in with entity id 1571 at ([world]-4351.791496169739, 74.5, -904.3000000119209)
-[14:00:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10693ms or 213 ticks behind
-[14:00:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7003ms or 140 ticks behind
-[14:01:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4797ms or 95 ticks behind
-[14:01:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4001ms or 80 ticks behind
-[14:01:40] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:271) ~[?:?]
-	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349) ~[spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-	at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:95) [spigot-1.14.1.jar:git-Spigot-8043ebc-f690957]
-[14:01:40] [Thread-2/INFO]: Stopping server
+[14:05:38] [Server thread/INFO]: Starting minecraft server version 1.14.1
+[14:05:38] [Server thread/INFO]: Loading properties
+[14:05:38] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-8043ebc-f690957 (MC: 1.14.1) (Implementing API version 1.14.1-R0.1-SNAPSHOT)
+[14:05:38] [Server thread/INFO]: Debug logging is disabled
+[14:05:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:05:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:05:38] [Server thread/INFO]: Default game type: SURVIVAL
+[14:05:38] [Server thread/INFO]: Generating keypair
+[14:05:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:05:38] [Server thread/INFO]: Using epoll channel type
+[14:05:44] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.0-SNAPSHOT
+[14:05:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:05:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:05:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:05:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:05:44] [Server thread/INFO]: Preparing level "world"
+[14:05:44] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[14:06:06] [User Authenticator #1/INFO]: UUID of player CosmosWOHatred is 79a36e8f-a516-3fbe-9304-07c6a8d691f0
+[14:06:07] [User Authenticator #2/INFO]: UUID of player SaphirBlue is 37feec18-ee62-3cef-a9bb-5adab9897b77
+[14:06:10] [Server thread/INFO]: Loaded 6 recipes
+[14:06:11] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:06:11] [Server thread/INFO]: Mob Spawn Range: 6
+[14:06:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:06:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:06:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:06:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:06:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:06:11] [Server thread/INFO]: Max TNT Explosions: 100
+[14:06:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:06:11] [Server thread/INFO]: View Distance: 10
+[14:06:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:06:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:06:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:06:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:06:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:06:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:06:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:06:11] [Server thread/INFO]: Mob Spawn Range: 6
+[14:06:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:06:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:06:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:06:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:06:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:06:11] [Server thread/INFO]: Max TNT Explosions: 100
+[14:06:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:06:11] [Server thread/INFO]: View Distance: 10
+[14:06:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:06:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:06:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:06:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:06:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:06:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:06:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:06:11] [Server thread/INFO]: Mob Spawn Range: 6
+[14:06:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:06:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:06:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:06:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:06:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:06:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:06:11] [Server thread/INFO]: Max TNT Explosions: 100
+[14:06:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:06:11] [Server thread/INFO]: View Distance: 10
+[14:06:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:06:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:06:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:06:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:06:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:06:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:06:11] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[14:06:12] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:12] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:12] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:13] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:13] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:14] [Server-Worker-1/INFO]: Preparing spawn area: 1%
+[14:06:17] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:17] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:17] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:17] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:17] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:17] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:17] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:18] [Server-Worker-1/INFO]: Preparing spawn area: 19%
+[14:06:18] [Server-Worker-1/INFO]: Preparing spawn area: 74%
+[14:06:19] [Server thread/INFO]: Time elapsed: 8231 ms
+[14:06:19] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[14:06:20] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:20] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:20] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:21] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[14:06:21] [Server-Worker-1/INFO]: Preparing spawn area: 5%
+[14:06:22] [Server-Worker-1/INFO]: Preparing spawn area: 7%
+[14:06:22] [Server-Worker-1/INFO]: Preparing spawn area: 26%
+[14:06:23] [Server-Worker-1/INFO]: Preparing spawn area: 71%
+[14:06:23] [Server-Worker-1/INFO]: Preparing spawn area: 92%
+[14:06:24] [Server thread/INFO]: Time elapsed: 4494 ms
+[14:06:24] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[14:06:24] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:24] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:25] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[14:06:25] [Server-Worker-1/INFO]: Preparing spawn area: 22%
+[14:06:26] [Server-Worker-1/INFO]: Preparing spawn area: 47%
+[14:06:26] [Server thread/INFO]: Time elapsed: 2198 ms
+[14:06:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.0-SNAPSHOT
+[14:06:26] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[14:06:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:06:26] [Server thread/INFO]: Done (42.401s)! For help, type "help"
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.0-SNAPSHOT[m
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[14:06:27] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[14:06:33] [Server thread/INFO]: CosmosWOHatred[/223.25.69.19:60748] logged in with entity id 1 at ([world]-4347.870953681096, 73.0, -887.5630719834161)
+[14:06:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@41647e5b[id=37feec18-ee62-3cef-a9bb-5adab9897b77,name=SaphirBlue,properties={},legacy=false] (/114.24.38.225:50270) lost connection: Disconnected
+[14:06:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7653ms or 153 ticks behind
+[14:07:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21730ms or 434 ticks behind
+[14:08:05] [User Authenticator #3/INFO]: UUID of player BoBoChaCha is 9c555e0d-80dd-320f-ae54-8dca19983b8d
+[14:08:14] [Server thread/INFO]: BoBoChaCha[/218.212.11.141:49250] logged in with entity id 514 at ([world]-4235.838141402943, 82.0, 84.06884329271783)
+[14:08:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8637ms or 172 ticks behind
+[14:08:16] [User Authenticator #4/INFO]: UUID of player SaphirBlue is 37feec18-ee62-3cef-a9bb-5adab9897b77
+[14:08:17] [Server thread/INFO]: SaphirBlue[/114.24.38.225:50411] logged in with entity id 858 at ([world]-4269.692234496794, 21.0, -928.7414577972278)
+[14:08:20] [User Authenticator #5/INFO]: UUID of player Dabaoo is 80bef8f5-7008-326e-9598-ac25298bebb1
+[14:08:27] [Server thread/INFO]: Dabaoo[/218.212.11.141:53654] logged in with entity id 1161 at ([world]-4225.5, 91.89274987968356, 116.81975012031644)
+[14:08:41] [User Authenticator #6/INFO]: UUID of player MikeEphe is dce89adf-a48c-3e93-970f-edbf02e8fc7c
+[14:08:51] [Server thread/INFO]: MikeEphe[/192.228.135.31:62870] logged in with entity id 1852 at ([world]548.1210608348422, 48.798847109289596, -670.0283281708475)
+[14:08:53] [Server thread/WARN]: SaphirBlue moved too quickly! -1.0538575093478357,3.382307835032993,-11.968865593382816
+[14:08:53] [Server thread/WARN]: BoBoChaCha moved too quickly! 9.847999796897057,0.0,-1.8384623652810035
+[14:09:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46898ms or 937 ticks behind
+[14:09:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22191ms or 443 ticks behind
+[14:10:02] [User Authenticator #7/INFO]: UUID of player charm_zzz is 09be90b1-85a3-3b8e-bd5b-8f23e3341529
+[14:10:03] [Server thread/INFO]: charm_zzz[/121.6.67.22:61940] logged in with entity id 2568 at ([world]-4225.293006378181, 81.0, 93.24508894861711)
+[14:10:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14920ms or 298 ticks behind
+[14:10:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9443ms or 188 ticks behind
+[14:11:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7179ms or 143 ticks behind
+[14:11:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4161ms or 83 ticks behind
+[14:11:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3749ms or 74 ticks behind
+[14:11:55] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue MikeEphe
+[14:11:55] [Server thread/INFO]: [SaphirBlue: Teleported SaphirBlue to MikeEphe]
+[14:12:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2251ms or 45 ticks behind
+[14:12:09] [Async Chat Thread - #0/INFO]: <Dabaoo> chou tou fu[m
+[14:12:29] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue MikeEphe
+[14:12:29] [Server thread/INFO]: [SaphirBlue: Teleported SaphirBlue to MikeEphe]
+[14:12:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[14:13:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16621ms or 332 ticks behind
+[14:13:19] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue cos
+[14:13:22] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue CosmosWOHatred
+[14:13:22] [Server thread/INFO]: [SaphirBlue: Teleported SaphirBlue to CosmosWOHatred]
+[14:13:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11671ms or 233 ticks behind
+[14:14:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13076ms or 261 ticks behind
+[14:14:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2184ms or 43 ticks behind
+[14:14:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3701ms or 74 ticks behind
+[14:14:56] [Async Chat Thread - #1/INFO]: <CosmosWOHatred> hi sexy[m
+[14:15:02] [Async Chat Thread - #1/INFO]: <Dabaoo> hi handsome[m
+[14:15:04] [Async Chat Thread - #1/INFO]: <CosmosWOHatred> back for more rope action[m
+[14:15:09] [Server thread/WARN]: BoBoChaCha moved too quickly! 2.0879950000353347,-2.0,-9.674572077028529
+[14:15:09] [Server thread/WARN]: Dabaoo moved too quickly! 25.373302730662544,2.0,-7.155255299468536
+[14:15:09] [Server thread/WARN]: MikeEphe moved too quickly! -9.008135324114164,-2.5654340463971863,-11.775335482077367
+[14:15:13] [Async Chat Thread - #1/INFO]: <Dabaoo> yes[m
+[14:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31890ms or 637 ticks behind
+[14:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3495ms or 69 ticks behind
+[14:16:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5235ms or 104 ticks behind
+[14:16:32] [Server thread/INFO]: charm_zzz lost connection: Disconnected
+[14:16:33] [Server thread/INFO]: charm_zzz left the game
+[14:16:45] [Server thread/INFO]: Dabaoo lost connection: Disconnected
+[14:16:45] [Server thread/INFO]: Dabaoo left the game
+[14:16:48] [Server thread/INFO]: BoBoChaCha lost connection: Disconnected
+[14:16:48] [Server thread/INFO]: BoBoChaCha left the game
+[14:17:04] [User Authenticator #8/INFO]: UUID of player BoBoChaCha is 9c555e0d-80dd-320f-ae54-8dca19983b8d
+[14:17:13] [Server thread/INFO]: BoBoChaCha[/218.212.11.141:49284] logged in with entity id 6570 at ([world]-4242.542935140989, 82.0, 88.22670974105282)
+[14:17:13] [Server thread/INFO]: SaphirBlue lost connection: Disconnected
+[14:17:13] [Server thread/INFO]: SaphirBlue left the game
+[14:17:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 77045ms or 1540 ticks behind
+[14:18:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14586ms or 291 ticks behind
+[14:18:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8844ms or 176 ticks behind
+[14:18:35] [Server thread/INFO]: MikeEphe lost connection: Disconnected
+[14:18:35] [Server thread/INFO]: MikeEphe left the game
+[14:18:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7334ms or 146 ticks behind
+[14:26:54] [User Authenticator #9/INFO]: UUID of player Dabaoo is 80bef8f5-7008-326e-9598-ac25298bebb1
+[14:26:54] [Server thread/INFO]: Dabaoo[/218.212.11.141:53779] logged in with entity id 10646 at ([world_nether]-544.5, 76.0, -111.17730006888269)
+[14:31:33] [Server thread/INFO]: BoBoChaCha lost connection: Disconnected
+[14:31:33] [Server thread/INFO]: BoBoChaCha left the game
+[14:31:35] [User Authenticator #10/INFO]: UUID of player BoBoChaCha is 9c555e0d-80dd-320f-ae54-8dca19983b8d
+[14:31:35] [Server thread/INFO]: BoBoChaCha[/218.212.11.141:49351] logged in with entity id 12039 at ([world]-4238.649958835947, 82.0, 83.99015544884077)
+[14:31:46] [Server thread/INFO]: Dabaoo issued server command: /tp dabaoo bobochacha
+[14:31:46] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[14:32:30] [Async Chat Thread - #2/INFO]: <CosmosWOHatred> hey dabao[m
+[14:32:38] [Async Chat Thread - #2/INFO]: <CosmosWOHatred> do you see ghost here[m
+[14:32:38] [Async Chat Thread - #2/INFO]: <Dabaoo> scary birb[m
+[14:32:48] [Async Chat Thread - #2/INFO]: <Dabaoo> no[m
+[14:32:55] [Async Chat Thread - #2/INFO]: <CosmosWOHatred> damn[m
+[14:34:52] [Server thread/INFO]: Dabaoo has made the advancement [Best Friends Forever]
+[14:36:23] [Server thread/INFO]: BoBoChaCha issued server command: /tp BoBoChaCha Dabaoo
+[14:36:23] [Server thread/INFO]: [BoBoChaCha: Teleported BoBoChaCha to Dabaoo]
+[14:36:23] [Server thread/WARN]: BoBoChaCha moved too quickly! 147.8060882594773,-8.0,1026.0
+[14:37:24] [Server thread/INFO]: Dabaoo was blown up by Creeper
+[14:38:27] [Server thread/INFO]: BoBoChaCha issued server command: /kill
+[14:38:30] [Server thread/INFO]: BoBoChaCha issued server command: /kill BoBoChaCha
+[14:38:30] [Server thread/INFO]: BoBoChaCha fell out of the world
+[14:38:30] [Server thread/INFO]: [BoBoChaCha: Killed BoBoChaCha]
+[14:38:44] [Server thread/INFO]: BoBoChaCha issued server command: /tp BoBoChaCha Dabaoo
+[14:38:44] [Server thread/INFO]: [BoBoChaCha: Teleported BoBoChaCha to Dabaoo]
+[14:42:53] [Server thread/INFO]: Dabaoo issued server command: /tp dabaoo bobochacha
+[14:42:53] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[14:45:17] [Server thread/INFO]: BoBoChaCha issued server command: /tp BoBoChaCha CosmosWOHatred
+[14:45:17] [Server thread/INFO]: [BoBoChaCha: Teleported BoBoChaCha to CosmosWOHatred]
+[14:47:19] [Server thread/INFO]: Dabaoo issued server command: /tp dabaoo bobochacha
+[14:47:19] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[14:50:01] [Server thread/INFO]: Dabaoo issued server command: /weather clear
+[14:50:01] [Server thread/INFO]: [Dabaoo: Set the weather to clear]
+[14:50:08] [Server thread/INFO]: Dabaoo issued server command: /time 1000
+[14:50:42] [Server thread/INFO]: Dabaoo issued server command: /time set 1000
+[14:50:42] [Server thread/INFO]: [Dabaoo: Set the time to 1000]
+[15:07:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3147ms or 62 ticks behind
+[15:10:49] [Server thread/INFO]: Dabaoo issued server command: /tp dabaoo bobochacha
+[15:10:49] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[15:10:49] [Server thread/WARN]: Dabaoo moved too quickly! -653.9558502195478,-18.0,201.97570273542374
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 19.660770952186795,-3.0,-2.6341421274679817
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 20.124086950053425,-3.0,-2.638397055675455
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 20.587419743268583,-3.0,-2.6420943580154415
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 21.050791753458725,-3.0,-2.6412681066997834
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 21.51408925459691,-3.0,-2.634803644839991
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 21.977290189900486,-3.0,-2.6232079801472423
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 16.86802571422413,-4.738492209317357,-10.075164333456001
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.440115039597913,-3.0,-2.6026578408124976
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 17.035610551151876,-5.0,-10.207605284387853
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.902125986211104,-3.0,-2.570009334590708
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 17.329952027130275,-5.0,-10.44042949703686
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.363334494424635,-3.0,-2.527519560940192
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 17.63233759648938,-5.0,-10.679722460415377
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.824113633849265,-3.0,-2.479763921302265
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 17.93902739983514,-5.0,-10.922476723336302
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.2846630265949,-3.0,-2.429190621764519
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 18.248020312968947,-5.0,-11.167083058631505
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.74508948647417,-2.0,-2.377109648592466
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 18.558245574232387,-5.0,-11.412680400927826
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 25.205450167427443,-2.0,-2.3242219493184564
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 18.86883281055725,-5.0,-11.659182679076707
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 25.665775651388685,-2.0,-2.2709025869916672
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 19.178403161519782,-5.0,-11.907673877694265
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 26.126148695393567,-2.0,-2.2179268040304976
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 19.472728991403528,-5.0,-12.173276277476162
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 26.586547187829638,-2.0,-2.1651348635376166
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 19.736960749751233,-5.0,-12.466251760282944
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.046959297214016,-2.0,-2.1124412934841246
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 19.961039435304883,-5.0,-12.788286119690724
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.507378692755992,-2.0,-2.0598003594914474
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.15309838101348,-5.0,-13.130733068052933
+[15:12:19] [Server thread/WARN]: CosmosWOHatred moved too quickly! 3.4758875520319634,0.5800000131130219,-9.451588303204517
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.753739931537893,-2.0,-2.031633245258945
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.328024202335655,-5.0,-13.484102385781512
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.88556291849727,-2.0,-2.0165615840247995
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.4964322514752,-5.0,-13.84216765485374
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.95609877055267,-2.0,-2.008497038594925
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.67523355375397,-5.0,-14.195891562187313
+[15:12:19] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.99384109865423,-2.0,-2.0041818611250903
+[15:12:19] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.87083611151229,-5.0,-14.540616844399352
+[15:12:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3796ms or 75 ticks behind
+[15:15:03] [Server thread/INFO]: CosmosWOHatred was shot by Skeleton
+[15:15:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[15:16:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2299ms or 45 ticks behind
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 18.653608934602744,-3.0,7.579267764773789
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 19.022364451140675,-3.0,7.723172795807983
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 19.39369604160038,-3.0,7.862381641929488
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 19.76812306132979,-3.0,7.994047490003055
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.14708079709726,-3.0,8.111941711840615
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.532445482915136,-3.0,8.203524520333502
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 20.923355624217947,-3.0,8.258409953386973
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 21.31707718648704,-3.0,8.278179357311586
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 21.711599042641865,-3.0,8.27000907160604
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 22.105602515062856,-3.0,8.239204814442616
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 22.497878802627383,-2.0,8.18769466887889
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 22.887826680458602,-2.0,8.11848469409469
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 23.27573588254836,-2.0,8.036514028849894
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 23.661571252983777,-2.0,7.9439618325023105
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 24.045104175842425,-2.0,7.841574019198077
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 24.426256185447528,-1.0,7.73021725434333
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 24.80506884594797,-1.0,7.610849410905843
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 25.182312102784635,-1.0,7.486273756284248
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 25.55790927533144,-1.0,7.356640824549146
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 25.92927836900526,-1.0,7.215738223258995
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 26.290434476643895,0.0,7.0522302256395335
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 26.639241885456613,0.0,6.864974814179931
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 26.980117978503586,0.0,6.66297805712307
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 27.21919010226975,0.0,6.453093499947769
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 27.21919010226975,0.0,6.240620567396263
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 27.21919010226975,0.0,6.0279716866887725
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 27.376037645141878,0.0,5.816458705336544
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 27.618081255597644,-0.07683200149536162,5.607622047557811
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 27.763722088981922,-0.2274534586630068,5.486855279980091
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 27.910052258276664,-0.4489423104376016,5.370729629074674
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 16.496652955314858,5.0,10.546466818091751
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 16.840444786893386,6.0,10.8545244371684
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.057493530079228,-0.7384922093173572,5.259791725457518
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.192316129217943,6.0,11.154358611621568
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.20627163010886,-1.093407939109099,5.154332147216252
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.54492015579126,6.0,11.454140777803694
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.21919010226975,-1.5111010141305457,5.054212862476589
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.881225220261513,6.0,11.771470038590273
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.21919010226975,-1.9890854526840371,4.959269373037699
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.236898113156712,-1.0,4.869312268882879
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.18888945407707,7.0,12.114786815707227
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.466257565478372,7.0,12.482089288288527
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.430041539625563,-1.0,4.737141023855145
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.710740158169756,-1.0768320014953616,4.614471328620709
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.683039553521667,8.0,12.882943882204081
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.794140143277218,8.0,13.312830937350391
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 28.878671534616842,-1.2274534586630068,4.543638470747567
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 29.046167882638656,-1.4489423104376016,4.475274976552754
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.836873036198995,8.0,13.757658958464482
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.843023737650583,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 29.213163834519037,-1.7384922093173572,4.408744149355357
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 29.37954564418942,-2.093407939109099,4.343341525797172
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.829600037815908,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.805702466124785,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 29.545197967434433,-2.5111010141305457,4.2784455763896005
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.763858081764738,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 29.710003652588966,-2.989085452684037,4.213507455971381
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.701280301142106,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 29.873902236846334,-3.0,4.1481747570976495
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.631491134364296,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 30.186058972713,-3.0,4.008678447999557
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.561186847419776,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 30.514369050929417,-2.0,3.843812396716686
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.45289353348926,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 30.846115620673118,-2.0,3.656637008997251
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 31.178135521863624,-2.0768320014953616,3.4550974813100765
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.254736512271847,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.965106130898675,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 31.371243643830894,-2.227453458663007,3.337119127350036
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.810130688432764,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 31.558908364568197,-2.4489423104376016,3.22176745729692
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 31.741718659948674,-2.738492209317357,3.108758264019542
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.727206419046524,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.682835295829136,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 31.920199778670394,-3.0,2.9978380915909497
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.659093192460205,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 32.23387817096773,-3.0768320014953616,2.7975337693752067
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 32.556230150647025,-3.1536640029907232,2.5889692106017606
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.646389266314145,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63959164872267,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 32.744165160571356,-3.3042854601583684,2.467231902571484
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 32.927216499855604,-3.525774311932963,2.348527997181918
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 33.10591258153727,-3.8153242108127188,2.2325292803453465
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 33.28072464437719,-3.0,2.1189430507298255
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 33.591130972544306,-3.0,1.9162611386462345
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 33.911732135945385,-3.0,1.70642437893855
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 34.23778835241774,-2.0,1.4927592029194727
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 34.56676345902633,-2.0,1.2770455176625717
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 34.897300405549686,-2.0,1.060235715955372
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 35.228673061472364,-1.0,0.8428394041898457
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 35.5623234449904,-1.0,0.6279754554400938
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 35.90020455429385,-1.0,0.4194154999553916
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 36.21919010226975,-1.0,0.22098518545848833
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 36.21919010226975,-1.0,0.03357647388148166
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 36.21919010226975,-1.0,-0.14178623798099466
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 36.21919010226975,-1.0,-0.301765113937563
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 36.39512129167451,0.0,-0.44393770817563905
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 36.66815561379008,0.0,-0.5663570623874818
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 36.99614813629796,0.0,-0.6645023378243877
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.7294994192177171
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.7530872971225904
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.7386275509045959
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.7009558883812019
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.6508639922384702
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.5941262767187538
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.5338325157537724
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.4716359857709165
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.4285979250905143
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.5374849708929617
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-0.76050614875777
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.0482958696720175
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.366797448929617
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.6956234741801381
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-2.026121238571818
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-2.355509125567181
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.4317523554829563,-2.7932652303626355
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.7695753242637409,-3.040549841483255
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.0171885083000376,-3.263050032181809
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.1781642133815353,-3.4592961943979788
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.2559332820553948,-3.629704843560461
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.2559332820553948,-3.776465230458598
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.1791012805600332,-3.9021360964615894
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.028479823392388,-4.008999327188292
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.8069909716177932,-4.099044028729651
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.5174410727380376,-4.173215257714418
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.16252534294629584,-4.224422943970495
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-4.25390238915449
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-4.115601650489111
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-3.877009174010368
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-3.5847525882292075
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-3.2637814075072527
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-2.9274456195397534
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-2.582888536572341
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-2.234903141709964
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.954563121152745
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.7280043509572351
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.5649740067142943
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.4796000518630592
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.4722622417959599
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.5179666162280796
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.5925134411866395
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.6824932863654567
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.7807310329629047
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.8754271984792297
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.93666894831307
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.9486110262852776
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.0,-1.9222029338767754
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,0.6476285139235927,-1.8027945961408989
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.1927789493059322,-1.7353831794231667
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.6395094361417364,-1.6707100551215035
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.21919010226975,1.9917174025537747,-1.6080578400566878
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.23703869232577,2.2531459385840122,-1.5473941290571247
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.27105090912937,2.4273899079787213,-1.489539585981646
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.31963448456918,2.5179018179470063,-1.4350459009609438
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.381276088603045,2.5279974564770384,-1.3839806557109853
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.45458763016268,2.4608613064146283,-1.3361644184040813
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.53832375126967,2.319551745144409,-1.2913898944900097
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.631367499150656,2.107006038363778,-1.2494247967310343
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 37.73271699566703,2.0,-1.2100126990100932
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 38.0069818533957,3.0,-1.1564337921408026
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 38.337616884645286,3.0,-1.1093335902143906
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 38.69841447184535,3.0,-1.0657000141314654
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 39.07535144135909,3.0,-1.0239213604203314
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 39.461106847920746,3.0,-0.9850578150283127
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 39.85181762704269,3.0,-0.9506501001488346
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 40.24549597260102,2.9231679985046384,-0.9239500949994408
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 40.474576649031405,2.772546541336993,-0.9110088120494026
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 40.69714687850865,2.5510576895623984,-0.9022074339253265
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 40.91378931043346,2.261507790682643,-0.8978141226861851
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 41.12506914527603,2.0,-0.8977305767102735
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 41.49056354933691,2.0,-0.950612529316686
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 41.85399380857325,2.0,-1.0562040690397794
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 42.20427580197884,2.0,-1.212066528979932
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 42.544321287919956,2.0,-1.3996779616253718
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 42.87888942281097,2.0,-1.6042776365592033
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 43.209702740453395,2.0,-1.8191639630504994
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 43.534545524154055,2.0,-2.0450417671742116
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 43.84735511838335,2.0,-2.2876956893708495
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 44.144086520675046,2.0,-2.549519103962666
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 44.47860421891528,2.0,-2.7579879519755366
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 44.8336922290373,3.0,-2.9369970688509284
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 45.204536114429175,3.0,-3.086222187500198
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 45.59047093371555,3.0,-3.1861353659852796
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 45.9848371150365,3.0,-3.223201246748431
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 46.37784161715081,3.0,-3.1936281916462406
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 46.763957945448055,3.0,-3.1096502966055084
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 47.143967543305735,3.0,-2.9906177564268717
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 47.51952310172055,3.0,-2.850110925291773
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 47.89188326536987,3.0,-2.6963181175599686
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 48.26253363698834,2.9231679985046384,-2.5354162486450207
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 48.47800204808118,2.772546541336993,-2.4414598262462732
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 48.68725588061079,2.5510576895623984,-2.3497181709460335
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 48.89234655821929,2.261507790682643,-2.268186433193762
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 49.09372662152509,2.0,-2.1954197306744163
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 49.44150359661944,2.0,-2.045240689966107
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 49.795778351530316,2.0,-1.87959718599879
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 50.153750140528246,2.0,-1.7061146092157458
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 50.5145855972296,3.0,-1.5302182197554544
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 50.89245907736586,3.0,-1.4374815400271928
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 51.27944926414057,4.0,-1.3892419629507913
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 51.67132065903934,4.0,-1.3643158108930038
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 52.06580306495107,4.0,-1.3499329824796007
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 52.46153996925568,4.0,-1.3349037972979545
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 52.85792853476687,4.0,-1.3190507817550383
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 53.25477785887051,4.0,-1.3061391371298043
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.63595437907952,8.0,13.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 53.6511591979106,4.0,-1.3160566134505984
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 17.85042817541853,8.0,13.82725226244819
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 54.04202693429761,3.9231679985046384,-1.3681889622473022
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.18023673945663,8.0,13.803059647215555
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 54.268496604775464,3.772546541336993,-1.4025178343833602
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.57182531394119,8.0,13.778037040674427
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 54.48742602816492,3.5510576895623984,-1.4404638563829053
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 18.99658561403612,8.0,13.7548189402766
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 54.6993504723514,3.261507790682643,-1.4822534745144367
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 19.43922337535423,8.0,13.735951582573385
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 54.90468028106443,3.0,-1.5281626038481875
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 19.89142700973389,8.0,13.719412220541606
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 55.24714485110508,3.0,-1.6626949070016224
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 20.348749152066375,8.0,13.70411852257839
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 55.58436298553261,3.0,-1.8368794919990705
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 20.808773133770956,8.0,13.688355859848023
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 55.91741826100042,3.0,-2.0342947284589172
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 21.27015185581513,8.0,13.67009257075997
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 56.24824607363644,3.0,-2.244140223347074
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 56.57788201532185,3.0,-2.460636901687593
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 21.73217154979193,8.0,13.648799512260204
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.194503663900832,8.0,13.625328400715922
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 56.91008134319236,3.0,-2.675842490092009
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.657063652030047,8.0,13.601826331049473
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-2.8870791138657808
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.11982406144125,8.0,13.579979012401957
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.0953582795228556
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.58269171228494,8.0,13.559017118032479
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.3003948488610604
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.04561674588058,8.0,13.538528996540741
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.497783263186733
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.508572483842727,8.0,13.518294381469865
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.674940472312528
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.971544651099066,8.0,13.498195412630416
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 25.434525609342927,8.0,13.478169025384908
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 25.897071098332162,8.0,13.450862054842212
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.7441124758233286
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.7030999945439476
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.6407682437016717
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 26.358295099482348,8.0,13.409016021228702
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 26.818665420001707,8.0,13.358263823169331
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.278504816044006,8.0,13.302193342100175
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.5343932957077584
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.738680330425268,8.0,13.248299691010835
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.3672308082204836
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 28.199216908797098,8.0,13.197254912949525
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-3.1569834486989237
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 28.659946685311297,8.0,13.147734510045105
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.21919010226975,4.0,-2.9255159726947966
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 29.120779838300223,8.0,13.09902976989438
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.37307403127306,5.0,-2.699330489253583
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 29.581668305979292,8.0,13.050761474620593
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.62320899283077,5.0,-2.5008628699014253
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 30.042586371446305,8.0,13.002726712298674
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 57.92972468483822,5.0,-2.3288189055880935
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 30.50407181324954,8.0,12.961009737823993
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 58.26886290109542,6.0,-2.1777503249899723
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 30.96636046567437,8.0,12.932244001430014
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 58.62750007052637,6.0,-2.044357235821792
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 31.42886260191699,8.0,12.928455272831236
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 58.99907813130358,6.0,-1.9297640994197707
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 31.89039094164218,8.0,12.952983017498333
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 59.38056726249397,6.0,-1.8404203849360101
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 32.3511987856682,8.0,12.992317101263701
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 59.76922236316568,6.0,-1.8026907419406655
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 32.81182054340843,8.0,13.037891729916616
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 60.15384299305424,6.0,-1.8367578322699103
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 33.27258735776013,8.0,13.084567349059107
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 60.52163137298521,7.0,-1.9439400971500618
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 33.733488769063115,8.0,13.131277283631938
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 60.86938681164611,7.0,-2.107890381706511
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 34.193819971002995,8.0,13.183607906883687
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.194782954353286,7.0,-2.3170345566299204
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 34.64915058549741,8.0,13.263879726347461
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.68121288186012,7.460535843275039,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 35.0931971442742,8.0,13.385930872996802
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.95212424003057,7.826002474269373,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 35.52536154129211,9.0,13.54378545055554
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.202970295408704,8.10016463201228,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 35.946587782134884,9.0,13.729868949059956
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,8.28663797193785,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 36.35460936886557,10.0,13.943744121842037
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,8.38889496959257,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 36.742263128635386,10.0,14.191404822431345
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,8.41027059055618,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 37.09691589969407,10.0,14.481226565371735
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,8.353967735833834,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 37.377586182014056,9.923167998504638,14.83164222426172
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,8.223062471610717,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 37.50343756633356,9.772546541336993,15.040678043727546
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,8.02050905190859,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 37.49464234573679,9.551057689562398,15.246764584904973
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,7.749144742345166,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 37.47378902301898,9.261507790682643,15.44772662039589
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,7.4116944528727515,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 37.43965641555587,9.0,15.641872603384492
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,7.01077518706046,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 37.238756851333164,9.0,15.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 36.958415146253174,9.0,15.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 36.638990977863614,10.0,15.847774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.21919010226975,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 36.301120269280545,10.0,15.983960726641094
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.17568850092175,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 35.952663383373874,10.0,16.192135783237127
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.099368969839816,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 35.59679213979416,9.923167998504638,16.43663278772673
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.994696501065846,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 35.236609634855085,9.846335997009277,16.700125937838855
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.872527879657355,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 35.027011689950086,9.695714539841632,16.85451568757619
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.74099741580994,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 34.823325336965354,9.474225688067037,17.005730903875865
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.604457616727814,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 34.62494732453797,9.184675789187281,17.154160032375877
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.465237422237806,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 34.431091917102094,9.0,17.299839800988288
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.325973299075486,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 34.0846914432359,9.0,17.557471121398244
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.19510849481867,7.0,-2.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 33.7231880506215,9.0,17.819384316166953
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.16358541485806,7.0,-2.950012170921468
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 33.352951667542584,9.0,18.082658085111
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.18805518876343,7.0,-3.2268470509033875
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 32.97804243538303,9.0,18.34665987016934
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.554988535829068
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 32.60063285484648,9.0,18.611051202135364
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 32.221885387745715,9.0,18.875650972884962
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 31.842422044218438,9.0,19.14036227507183
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 31.462575649488826,9.0,19.40513325550709
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 31.08284360856851,9.0,19.670393421609937
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 30.66262812153036,9.0,19.84744073011543
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 30.221129520550676,9.0,19.979553135820858
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 29.76844286244159,9.0,20.08876366275073
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 29.309972014316372,9.0,20.186839930608862
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 28.84861820001788,9.0,20.280098201915017
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 28.386049026593355,9.0,20.372475576693752
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,7.647628513923593,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.923285208948982,9.0,20.466633434381528
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,8.192778949305932,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 27.46077553012219,9.0,20.563434839785337
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,8.639509436141736,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 26.999030057781056,9.0,20.664469235292252
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,8.991717402553775,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 26.538914251406823,9.0,20.77280791416694
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.29943206650569,9.253145938584012,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 26.081319474271368,9.0,20.891159291876015
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 25.627609831927657,9.0,21.023129096431568
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 25.179651677618494,9.0,21.172689159532617
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.805410771880815,9.0,21.222774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.37259506218288,9.427389907978721,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.43891491502018,9.517901817947006,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.49913205289795,9.527997456477038,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.55390678941694,9.460861306414628,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.480983914979333,9.0,21.222774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.6037306946082,9.319551745144409,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 24.196925750091395,9.0,21.222774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.649091673925795,9.107006038363778,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.955962600403836,9.0,21.222774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.69047261583546,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.763892464250603,9.0,21.222774155136882
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.736656334775034,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.614901548128728,9.0,21.433211909509573
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.77064851585692,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.500035546834624,9.0,21.75838073966785
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.79811724810406,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.411235971165297,9.0,22.14608414365285
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.82209541294287,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.33919334402981,9.0,22.567589173072754
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.843710340606776,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.27611702595732,9.0,23.007180778331183
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.864060747176154,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.217838401095833,9.0,23.45645014971337
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.88373453371878,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.16268110279634,9.0,23.910960672596907
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.81804155982991,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.110323334843088,9.0,24.368399068664665
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.70667053446323,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.060018193102223,9.0,24.827462529654788
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.65586280901971,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 23.010811370722877,9.0,25.287395530484567
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.6374612978625,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.96219223713524,9.0,25.74779380474579
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.634965940615984,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.936177108113952,9.0,25.99414374195168
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.55560035809958,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.922256931260563,9.0,26.125960681662697
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.43376783475742,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.914808522164094,9.0,26.19649329795582
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.28921209807959,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.234233894665614
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.22114339939435,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.254428135498706
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.20459742048024,9.0,-3.7692642415409523
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.265233671138766
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,9.0,-3.9524095753727124
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.27101549782062
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,9.0,-4.232996217247518
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,9.0,-4.564645606605723
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.21919010226975,10.0,-4.922646992036391
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.25864272309718,11.0,-5.294748805163351
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.31920565472865,11.0,-5.67439547601839
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.39106429277672,11.0,-6.058079249815506
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.468967038116716,11.0,-6.443923196905729
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.55198838942488,11.0,-6.8305008667907146
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.641521085262866,11.0,-7.216563569608411
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.805329194907245,11.431752355482956,-7.859476917344921
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.89809783488181,11.76957532426374,-8.221244420806528
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 61.98082891039576,12.017188508300038,-8.54386868969155
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.054608485665085,12.178164213381535,-8.831585020975155
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.12834382197616,12.255933282055395,-9.08344212536943
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.20171379547628,12.255933282055395,-9.302811364374094
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.27475793841313,12.179101280560033,-9.493207924189278
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.910823026962134,9.0,26.274109238000896
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.347511505644434,12.028479823392388,-9.657766647958681
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.874579066005936,9.0,26.486492224777415
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.420005937454334,11.806990971617793,-9.799283188878377
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.78242657676401,9.0,26.802930261551033
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.492241552227824,11.517441072738038,-9.920210640894794
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.62026891594087,9.0,27.15578556534293
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.564134413511965,11.162525342946296,-10.022619375056792
+[15:16:42] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 62.63548743271349,11.0,-10.108204875533914
+[15:16:42] [Server thread/WARN]: Horse (vehicle of BoBoChaCha) moved too quickly! 22.415870989808354,9.0,27.52509958021492
+[15:16:43] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 44.47814581077364,14.0,-17.552926859796315
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 44.60683236519344,14.0,-17.488372208881202
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 46.07840654511347,14.0,-16.796884244336212
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse (vehicle of Dabaoo) moved too quickly! 46.433330833141554,14.0,-16.90059173228522
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:43] [Server thread/WARN]: Horse moved wrongly!
+[15:16:51] [Server thread/INFO]: CosmosWOHatred lost connection: Disconnected
+[15:16:51] [Server thread/INFO]: CosmosWOHatred left the game
+[15:16:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32735ms or 654 ticks behind
+[15:17:33] [Server thread/WARN]: Horse moved wrongly!
+[15:18:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9009ms or 180 ticks behind
+[15:22:28] [User Authenticator #11/INFO]: UUID of player CosmosWOHatred is 79a36e8f-a516-3fbe-9304-07c6a8d691f0
+[15:22:28] [Server thread/INFO]: CosmosWOHatred[/223.25.69.19:61000] logged in with entity id 39897 at ([world_nether]-544.5, 76.0, -111.02700711894647)
+[15:22:50] [Server thread/INFO]: Dabaoo issued server command: /tp dabaoo bobochacha
+[15:22:50] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[15:22:50] [Server thread/WARN]: Dabaoo moved too quickly! -34.19243312867093,43.5,5.875167439921029
+[15:23:07] [Server thread/WARN]: Dabaoo moved too quickly! 7.7197406075601975,-5.166109260938214,3.7267471462617436
+[15:23:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8231ms or 164 ticks behind
+[15:26:23] [User Authenticator #12/INFO]: UUID of player SaphirBlue is 37feec18-ee62-3cef-a9bb-5adab9897b77
+[15:26:24] [Server thread/INFO]: SaphirBlue[/114.24.38.225:51083] logged in with entity id 42279 at ([world]-4356.5, 95.7125, -594.222522670014)
+[15:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
+[15:27:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[15:27:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4043ms or 80 ticks behind
+[15:28:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[15:28:32] [Server thread/INFO]: CosmosWOHatred issued server command: /tp CosmosWOHatred SaphirBlue
+[15:28:32] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to SaphirBlue]
+[15:28:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8431ms or 168 ticks behind
+[15:28:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5165ms or 103 ticks behind
+[15:29:43] [Server thread/INFO]: Dabaoo issued server command: /time set 1000
+[15:29:43] [Server thread/INFO]: [Dabaoo: Set the time to 1000]
+[15:32:32] [User Authenticator #13/INFO]: UUID of player MikeEphe is dce89adf-a48c-3e93-970f-edbf02e8fc7c
+[15:32:33] [Server thread/INFO]: MikeEphe[/192.228.135.31:63427] logged in with entity id 45351 at ([world]258.7054359168009, 63.0, -414.8308151652873)
+[15:33:12] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue MikeEphe1`
+[15:33:13] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue MikeEphe1
+[15:33:15] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue MikeEphe
+[15:33:15] [Server thread/INFO]: [SaphirBlue: Teleported SaphirBlue to MikeEphe]
+[15:33:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6464ms or 129 ticks behind
+[15:34:10] [Server thread/INFO]: CosmosWOHatred issued server command: /tp CosmosWOHatred SaphirBlue
+[15:34:10] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to SaphirBlue]
+[15:34:32] [Server thread/INFO]: SaphirBlue was slain by CosmosWOHatred
+[15:34:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5587ms or 111 ticks behind
+[15:34:53] [Server thread/INFO]: CosmosWOHatred issued server command: /tp CosmosWOHatred SaphirBlue
+[15:34:53] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to SaphirBlue]
+[15:35:02] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue MikeEphe
+[15:35:02] [Server thread/INFO]: [SaphirBlue: Teleported SaphirBlue to MikeEphe]
+[15:35:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14113ms or 282 ticks behind
+[15:35:09] [Server thread/INFO]: CosmosWOHatred issued server command: /kill SaphirBlue
+[15:35:09] [Server thread/INFO]: SaphirBlue fell out of the world
+[15:35:09] [Server thread/INFO]: [CosmosWOHatred: Killed SaphirBlue]
+[15:35:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7839ms or 156 ticks behind
+[15:35:41] [Server thread/INFO]: MikeEphe issued server command: /tp MikeEphe CosmosWOHatred
+[15:35:41] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[15:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6297ms or 125 ticks behind
+[15:36:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5955ms or 119 ticks behind
+[15:38:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5623ms or 112 ticks behind
+[15:39:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[15:45:06] [Server thread/INFO]: Dabaoo issued server command: /tp dabaoo bobochacha
+[15:45:06] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[15:46:15] [Server thread/WARN]: MikeEphe moved wrongly!
+[15:46:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2119ms or 42 ticks behind
+[15:49:12] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue BoBoChaCha
+[15:49:12] [Server thread/INFO]: [SaphirBlue: Teleported SaphirBlue to BoBoChaCha]
+[15:49:31] [Server thread/INFO]: SaphirBlue issued server command: /tp SaphirBlue MikeEphe
+[15:49:31] [Server thread/INFO]: [SaphirBlue: Teleported SaphirBlue to MikeEphe]
+[15:49:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5357ms or 107 ticks behind
+[15:50:02] [Server thread/WARN]: MikeEphe moved too quickly! -9.792189691464046,-3.0,40.800734778525
+[15:50:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17497ms or 349 ticks behind
+[15:50:16] [Server thread/INFO]: MikeEphe issued server command: /tp MikeEphe BoBoChaCha
+[15:50:16] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to BoBoChaCha]
+[15:50:42] [Server thread/INFO]: MikeEphe issued server command: /tp MikeEphe SaphirBlue
+[15:50:42] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to SaphirBlue]
+[15:52:19] [Server thread/INFO]: CosmosWOHatred issued server command: /tp CosmosWOHatred SaphirBlue
+[15:52:19] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to SaphirBlue]
+[15:52:19] [Server thread/WARN]: CosmosWOHatred moved too quickly! 16.180660502133833,-14.0,70.84144606333905
+[15:52:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[15:53:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18334ms or 366 ticks behind
+[15:53:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20228ms or 404 ticks behind
+[15:54:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12899ms or 257 ticks behind
+[15:55:32] [Server thread/INFO]: BoBoChaCha has made the advancement [Enchanter]
+[15:55:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[15:55:39] [Async Chat Thread - #3/INFO]: <Dabaoo> stop wasting our goods[m
+[15:55:55] [Async Chat Thread - #3/INFO]: <CosmosWOHatred> yea you tell her[m
+[15:56:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9123ms or 182 ticks behind
+[15:57:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
+[15:57:37] [Server thread/INFO]: [Server] hi all
+[15:57:41] [Async Chat Thread - #4/INFO]: <Dabaoo> hi server[m
+[15:57:42] [Async Chat Thread - #4/INFO]: <CosmosWOHatred> hey server[m
+[15:57:47] [Server thread/INFO]: [Server] can I shut down the server for like 10 mins
+[15:57:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[15:57:51] [Async Chat Thread - #4/INFO]: <Dabaoo> yes server[m
+[15:57:55] [Async Chat Thread - #4/INFO]: <CosmosWOHatred> okay server[m
+[15:57:55] [Async Chat Thread - #4/INFO]: <Dabaoo> you are god[m
+[15:57:57] [Server thread/INFO]: [Server] want to try and update it see if i can fix the lag
+[15:58:05] [Async Chat Thread - #4/INFO]: <CosmosWOHatred> 1.14.2?[m
+[15:58:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3102ms or 62 ticks behind
+[15:58:14] [Async Chat Thread - #4/INFO]: <SaphirBlue> ok server san[m
+[15:58:14] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[15:58:16] [Async Chat Thread - #4/INFO]: <Dabaoo> i sacrifice my life for you[m
+[15:58:18] [Server thread/INFO]: Dabaoo fell from a high place
+[15:58:19] [Server thread/INFO]: [Server] I'll be upgrading to 1.14.2 so ya'll just update your side
+[15:58:24] [Server thread/INFO]: [Server] thanks ya'll
+[15:58:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3299ms or 65 ticks behind
+[15:58:29] [Async Chat Thread - #4/INFO]: <CosmosWOHatred> OH[m
+[15:58:31] [Async Chat Thread - #4/INFO]: <CosmosWOHatred> nice[m
+[15:58:35] [Async Chat Thread - #4/INFO]: <CosmosWOHatred> thanks man[m
+[15:58:42] [Server thread/INFO]: [Server] hopefully it works heh
+[15:58:44] [Server thread/INFO]: Dabaoo lost connection: Disconnected
+[15:58:44] [Server thread/INFO]: Dabaoo left the game
+[15:58:46] [Server thread/INFO]: SaphirBlue lost connection: Disconnected
+[15:58:46] [Server thread/INFO]: SaphirBlue left the game
+[15:58:49] [Server thread/INFO]: Stopping the server
+[15:58:49] [Server thread/INFO]: Stopping server
+[15:58:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.0-SNAPSHOT
+[15:58:49] [Server thread/INFO]: Saving players
+[15:58:49] [Server thread/INFO]: BoBoChaCha lost connection: Server closed
+[15:58:49] [Server thread/INFO]: BoBoChaCha left the game
+[15:58:49] [Server thread/INFO]: CosmosWOHatred lost connection: Server closed
+[15:58:49] [Server thread/INFO]: CosmosWOHatred left the game
+[15:58:49] [Server thread/INFO]: MikeEphe lost connection: Server closed
+[15:58:49] [Server thread/INFO]: MikeEphe left the game
+[15:58:49] [Server thread/INFO]: Saving worlds
+[15:58:49] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[15:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:58:55] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[15:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:58:55] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[15:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
