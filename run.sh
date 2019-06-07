@@ -1,1 +1,1 @@
-java -Xms3092M -Xmx3092M -jar spigot-1.14.1.jar
+java -Xms2792M -Xmx2792M -jar spigot-1.14.1.jar
