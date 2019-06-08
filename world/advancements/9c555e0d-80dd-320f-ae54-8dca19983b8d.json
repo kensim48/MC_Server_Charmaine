@@ -407,6 +407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2019-06-08 07:13:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2019-06-04 13:49:24 +0000"
@@ -512,6 +518,12 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2019-06-06 09:27:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_at_least_9_gold_ingot": "2019-06-08 07:55:20 +0000"
     },
     "done": true
   },
@@ -694,6 +706,7 @@
       "minecraft:phantom": "2019-06-05 06:37:04 +0000",
       "minecraft:witch": "2019-06-06 14:44:25 +0000",
       "minecraft:wither_skeleton": "2019-06-04 18:43:35 +0000",
+      "minecraft:cave_spider": "2019-06-08 07:13:46 +0000",
       "minecraft:enderman": "2019-06-04 14:42:33 +0000",
       "minecraft:zombie": "2019-06-04 14:45:35 +0000"
     },
@@ -864,6 +877,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-06-04 17:15:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_at_least_9_gold_ingot": "2019-06-08 07:55:20 +0000"
     },
     "done": true
   },
@@ -1329,6 +1348,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2019-06-07 17:11:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2019-06-04 13:56:04 +0000"
@@ -1491,6 +1516,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2019-06-07 16:35:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2019-06-04 15:49:04 +0000"
@@ -1542,6 +1573,12 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2019-06-04 13:56:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_at_least_9_diamond": "2019-06-07 16:35:59 +0000"
     },
     "done": true
   },
@@ -1935,7 +1972,9 @@
       "cooked_beef": "2019-06-04 14:35:16 +0000",
       "apple": "2019-06-07 08:35:25 +0000",
       "bread": "2019-06-06 15:30:02 +0000",
-      "cooked_chicken": "2019-06-06 08:55:13 +0000"
+      "rotten_flesh": "2019-06-08 07:06:35 +0000",
+      "cooked_chicken": "2019-06-06 08:55:13 +0000",
+      "carrot": "2019-06-08 07:47:23 +0000"
     },
     "done": false
   },
@@ -2136,6 +2175,15 @@
       "has_smooth_stone": "2019-06-06 15:24:40 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2019-06-07 17:07:06 +0000",
+      "minecraft:cow": "2019-06-07 17:23:50 +0000",
+      "minecraft:chicken": "2019-06-07 17:24:02 +0000",
+      "minecraft:wolf": "2019-06-08 07:06:42 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
@@ -2440,6 +2488,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2019-06-04 16:28:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-06-07 17:11:59 +0000"
     },
     "done": true
   },
@@ -2785,6 +2839,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2019-06-07 17:11:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2019-06-04 13:58:43 +0000"
@@ -2836,6 +2896,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2019-06-04 16:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-06-07 17:11:59 +0000"
     },
     "done": true
   },
@@ -3058,6 +3124,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2019-06-04 15:00:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2019-06-07 17:07:06 +0000"
     },
     "done": true
   },

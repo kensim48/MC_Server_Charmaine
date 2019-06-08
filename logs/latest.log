@@ -1,77 +1,419 @@
-[16:11:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:11:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:11:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:11:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:11:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:11:05] [Server thread/INFO]: Starting minecraft server version 1.14.2
-[16:11:05] [Server thread/INFO]: Loading properties
-[16:11:05] [Server thread/INFO]: Default game type: SURVIVAL
-[16:11:05] [Server thread/INFO]: Generating keypair
-[16:11:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:11:06] [Server thread/INFO]: Using epoll channel type
-[16:11:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:11:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:11:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:11:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:11:06] [Server thread/INFO]: Preparing level "world"
-[16:11:06] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[16:11:36] [Server thread/INFO]: Loaded 6 recipes
-[16:11:37] [Server thread/INFO]: Loaded 811 advancements
-[16:11:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:11:38] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:38] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:38] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:38] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:39] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:39] [Server thread/INFO]: Preparing spawn area: 62%
-[16:11:41] [Server thread/INFO]: Preparing spawn area: 85%
-[16:11:41] [Server thread/INFO]: Preparing spawn area: 85%
-[16:11:41] [Server thread/INFO]: Preparing spawn area: 85%
-[16:11:41] [Server thread/INFO]: Time elapsed: 4236 ms
-[16:11:41] [Server thread/INFO]: Done (35.030s)! For help, type "help"
-[16:12:03] [Server thread/INFO]: [Server] hello
-[16:12:05] [Server thread/INFO]: There are 0 of a max 20 players online: 
-[16:13:13] [Server thread/INFO]: CosmosWOHatred[/223.25.69.19:61286] logged in with entity id 1 at (-4339.978793638897, 78.0, -887.4412407538362)
-[16:13:13] [Server thread/INFO]: CosmosWOHatred joined the game
-[16:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
-[16:13:32] [Server thread/INFO]: Kensim48[/42.61.250.44:54977] logged in with entity id 407 at (-4231.935490961168, 87.0, 73.06579585914376)
-[16:13:32] [Server thread/INFO]: Kensim48 joined the game
-[16:13:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6261ms or 125 ticks behind
-[16:13:46] [Server thread/INFO]: <CosmosWOHatred> is you server?
-[16:13:52] [Server thread/WARN]: CosmosWOHatred moved too quickly! 2.6815026719896196,1.5,-9.7901786802978
-[16:13:52] [Server thread/INFO]: <Kensim48> yeah
-[16:13:54] [Server thread/INFO]: <Kensim48> hahah
-[16:13:56] [Server thread/INFO]: Kensim48 suffocated in a wall
-[16:13:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7934ms or 158 ticks behind
-[16:14:03] [Server thread/INFO]: BoBoChaCha[/218.212.11.141:49774] logged in with entity id 2087 at (-4241.6002414634795, 82.0, 85.31296922763723)
-[16:14:03] [Server thread/INFO]: BoBoChaCha joined the game
-[16:14:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[16:14:45] [Server thread/INFO]: [Kensim48: Set own game mode to Spectator Mode]
-[16:14:55] [Server thread/INFO]: [Kensim48: Teleported Kensim48 to CosmosWOHatred]
-[16:15:07] [Server thread/INFO]: <CosmosWOHatred> hi
-[16:15:11] [Server thread/INFO]: <Kensim48> hi
-[16:15:13] [Server thread/INFO]: <Kensim48> is it better?
-[16:15:14] [Server thread/INFO]: <BoBoChaCha> hi god
-[16:15:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31525ms or 630 ticks behind
-[16:15:32] [Server thread/INFO]: SaphirBlue[/114.24.38.225:55454] logged in with entity id 5782 at (-4355.300000011921, 67.9375, -854.2042812003201)
-[16:15:32] [Server thread/INFO]: SaphirBlue joined the game
-[16:15:32] [Server thread/INFO]: [Kensim48] hi
-[16:15:32] [Server thread/INFO]: <CosmosWOHatred> feels good so far
-[16:15:36] [Server thread/INFO]: <Kensim48> HAHAH
-[16:15:46] [Server thread/INFO]: <Kensim48> ok let charm know if there are any issues
-[16:15:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18903ms or 378 ticks behind
-[16:15:58] [Server thread/INFO]: <CosmosWOHatred> yes sir
-[16:16:05] [Server thread/INFO]: <Kensim48> byezz
-[16:16:07] [Server thread/INFO]: Kensim48 lost connection: Disconnected
-[16:16:07] [Server thread/INFO]: Kensim48 left the game
-[16:16:07] [Server thread/INFO]: <CosmosWOHatred> thanks for the troubleshoot
-[16:16:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9834ms or 196 ticks behind
-[16:16:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[16:17:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[16:17:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[16:17:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5761ms or 115 ticks behind
-[16:18:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13463ms or 269 ticks behind
-[16:18:25] [Server thread/WARN]: SaphirBlue moved too quickly! 0.09115652335367486,3.0,-9.890818091163396
-[16:20:32] [Server Watchdog/FATAL]: A single server tick took 60.01 seconds (should be max 0.05)
-[16:20:32] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
-[16:20:33] [Server Watchdog/ERROR]: This crash report has been saved to: /home/kensim/MC_Server_Charmaine/./crash-reports/crash-2019-06-07_16.20.33-server.txt
+[02:14:18] [Server thread/INFO]: CosmosWOHatred[/223.25.69.19:62039] logged in with entity id 242051 at (-716.4859714709709, 64.0, -194.7025694245975)
+[02:14:18] [Server thread/INFO]: CosmosWOHatred joined the game
+[02:23:47] [Server thread/INFO]: CosmosWOHatred fell out of the world
+[02:23:47] [Server thread/INFO]: [CosmosWOHatred: Killed CosmosWOHatred]
+[02:30:39] [Server thread/INFO]: CosmosWOHatred has made the advancement [Enchanter]
+[03:04:17] [Server thread/INFO]: There are 1 of a max 20 players online: CosmosWOHatred
+[03:26:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2208ms or 44 ticks behind
+[03:34:04] [Server thread/INFO]: charm_zzz[/121.6.67.22:62276] logged in with entity id 565923 at (-4223.051350792415, 79.02744034972274, 91.38231824049502)
+[03:34:04] [Server thread/INFO]: charm_zzz joined the game
+[03:34:09] [Server thread/INFO]: <CosmosWOHatred> hi
+[03:34:26] [Server thread/INFO]: <charm_zzz> hi
+[03:34:34] [Server thread/INFO]: <charm_zzz> there are two retarded birds stuck in my base
+[03:34:52] [Server thread/INFO]: <CosmosWOHatred> birds?
+[03:35:13] [Server thread/INFO]: <CosmosWOHatred> the night time kind?
+[03:35:23] [Server thread/INFO]: <charm_zzz> ya HAHA
+[03:35:25] [Server thread/INFO]: <charm_zzz> what u doing
+[03:35:39] [Server thread/INFO]: CosmosWOHatred was fireballed by Blaze
+[03:35:43] [Server thread/INFO]: <CosmosWOHatred> yea that
+[03:35:45] [Server thread/INFO]: <charm_zzz> LOL
+[03:35:51] [Server thread/INFO]: <charm_zzz> you farming?
+[03:35:53] [Server thread/INFO]: <CosmosWOHatred> was farming blaze rods and exp
+[03:36:19] [Server thread/INFO]: <CosmosWOHatred> you got work soon?
+[03:36:24] [Server thread/INFO]: <charm_zzz> yall crafted that much?
+[03:36:29] [Server thread/INFO]: <charm_zzz> as in brewed
+[03:36:32] [Server thread/INFO]: <charm_zzz> nah dont have
+[03:36:43] [Server thread/INFO]: <CosmosWOHatred> brewed what?
+[03:36:48] [Server thread/INFO]: <CosmosWOHatred> no work? good
+[03:36:53] [Server thread/INFO]: <CosmosWOHatred> wana go fight the wither?
+[03:36:56] [Server thread/INFO]: <charm_zzz> potion
+[03:37:00] [Server thread/INFO]: <charm_zzz> wither skeleton?
+[03:37:05] [Server thread/INFO]: <CosmosWOHatred> i went in potionless
+[03:37:09] [Server thread/INFO]: <CosmosWOHatred> wither boss
+[03:37:17] [Server thread/INFO]: <charm_zzz> whatsthat
+[03:37:23] [Server thread/INFO]: <CosmosWOHatred> mini boss
+[03:37:29] [Server thread/INFO]: <CosmosWOHatred> that drops an item i need
+[03:38:32] [Server thread/INFO]: <CosmosWOHatred> i gotta go farm the wither skeles first thou
+[03:38:44] [Server thread/INFO]: <CosmosWOHatred> need their heads to spawn the boss
+[03:41:08] [Server thread/INFO]: <charm_zzz> oh the pretty light
+[03:41:22] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to charm_zzz]
+[03:41:30] [Server thread/INFO]: <charm_zzz> wait ah im trying to enchant stuff
+[03:42:06] [Server thread/INFO]: <CosmosWOHatred> im bugged
+[03:42:09] [Server thread/INFO]: <CosmosWOHatred> brb
+[03:42:10] [Server thread/INFO]: CosmosWOHatred lost connection: Disconnected
+[03:42:10] [Server thread/INFO]: CosmosWOHatred left the game
+[03:42:12] [Server thread/INFO]: CosmosWOHatred[/223.25.69.19:62378] logged in with entity id 574186 at (-4227.69439536633, 82.0, 81.7505126690351)
+[03:42:12] [Server thread/INFO]: CosmosWOHatred joined the game
+[03:42:24] [Server thread/INFO]: <charm_zzz> does your enchantment table have mending/fortune
+[03:42:36] [Server thread/INFO]: <CosmosWOHatred> it depends on your luck
+[03:42:50] [Server thread/INFO]: <CosmosWOHatred> managed to get fortune on my pick
+[03:42:54] [Server thread/INFO]: charm_zzz has made the advancement [Enchanter]
+[03:42:59] [Server thread/INFO]: <CosmosWOHatred> what you can do is
+[03:43:06] [Server thread/INFO]: <CosmosWOHatred> enchant more than one
+[03:43:13] [Server thread/INFO]: <CosmosWOHatred> select the ones you want
+[03:43:25] [Server thread/INFO]: <CosmosWOHatred> then combine them with the anvril
+[03:43:33] [Server thread/INFO]: <charm_zzz> then i'll need a lot
+[03:43:38] [Server thread/INFO]: <CosmosWOHatred> slowly lo
+[03:43:43] [Server thread/INFO]: <CosmosWOHatred> you need alot exp too thou
+[03:43:44] [Server thread/INFO]: <charm_zzz> of diamonds...
+[03:43:48] [Server thread/INFO]: <CosmosWOHatred> dont do too much at one go
+[03:44:05] [Server thread/INFO]: <CosmosWOHatred> 26 diamonds should be okay
+[03:44:12] [Server thread/INFO]: <CosmosWOHatred> what you wanna get?
+[03:46:13] [Server thread/INFO]: <charm_zzz> fortune and mending
+[03:46:29] [Server thread/INFO]: <CosmosWOHatred> you may find some in dungeons
+[03:46:44] [Server thread/INFO]: <charm_zzz> your fortune is 2 or 3?
+[03:46:47] [Server thread/INFO]: <CosmosWOHatred> 2
+[03:47:23] [Server thread/INFO]: <charm_zzz> stupid enchantment
+[03:47:42] [Server thread/INFO]: <CosmosWOHatred> O.o
+[03:48:04] [Server thread/INFO]: <CosmosWOHatred> err
+[03:48:11] [Server thread/INFO]: <CosmosWOHatred> you can save space i think
+[03:48:19] [Server thread/INFO]: <CosmosWOHatred> by combining the same type and level
+[03:48:25] [Server thread/INFO]: <CosmosWOHatred> to bring it up one level
+[03:48:56] [Server thread/INFO]: <CosmosWOHatred> if you get beheading
+[03:49:00] [Server thread/INFO]: <charm_zzz> but theyre all so useless
+[03:49:03] [Server thread/INFO]: <CosmosWOHatred> i'll buy from you
+[03:49:09] [Server thread/INFO]: <CosmosWOHatred> sharpness is okay
+[03:49:14] [Server thread/INFO]: <CosmosWOHatred> good for swords
+[03:49:25] [Server thread/INFO]: <charm_zzz> my sword can get unbreaking 3
+[03:49:29] [Server thread/INFO]: <charm_zzz> but is it worth it LOL
+[03:49:39] [Server thread/INFO]: <CosmosWOHatred> burability is high lo
+[03:49:43] [Server thread/INFO]: <CosmosWOHatred> so it kinda is
+[03:49:52] [Server thread/INFO]: <charm_zzz> but i let other ppl fight for me
+[03:49:54] [Server thread/INFO]: <charm_zzz> while i run away
+[03:49:56] [Server thread/INFO]: <charm_zzz> thinking
+[03:49:58] [Server thread/INFO]: <CosmosWOHatred> oooft
+[03:50:08] [Server thread/INFO]: <CosmosWOHatred> then get a bow i guess
+[03:50:15] [Server thread/INFO]: <CosmosWOHatred> crossbow is op
+[03:50:24] [Server thread/INFO]: <charm_zzz> can a crossbow be enchanted
+[03:50:25] [Server thread/INFO]: <CosmosWOHatred> can get multishot
+[03:50:28] [Server thread/INFO]: <CosmosWOHatred> yea
+[03:51:49] [Server thread/INFO]: <charm_zzz> ok im scrub now
+[03:51:55] [Server thread/INFO]: <CosmosWOHatred> O.o
+[03:52:08] [Server thread/INFO]: <CosmosWOHatred> you mean your levels?
+[03:52:12] [Server thread/INFO]: <charm_zzz> ya LOL
+[03:52:14] [Server thread/INFO]: <CosmosWOHatred> dont let it fall below 30
+[03:52:17] [Server thread/INFO]: <CosmosWOHatred> XD
+[03:52:18] [Server thread/INFO]: <charm_zzz> it's at 8
+[03:52:21] [Server thread/INFO]: <CosmosWOHatred> gg
+[03:52:28] [Server thread/INFO]: <CosmosWOHatred> farm it back
+[03:52:39] [Server thread/INFO]: <CosmosWOHatred> keep it above 30 all time if possible
+[03:52:59] [Server thread/INFO]: <CosmosWOHatred> if you go below 30 you cant enchant good stuff
+[03:53:56] [Server thread/INFO]: <charm_zzz> dont rly have much choices rn so im fine
+[03:54:01] [Server thread/INFO]: <charm_zzz> u wanna go?
+[03:54:31] [Server thread/INFO]: <CosmosWOHatred> im going to the nether
+[03:54:48] [Server thread/INFO]: <CosmosWOHatred> wheres the portal
+[03:54:49] [Server thread/INFO]: <charm_zzz> wheres my portal
+[03:54:50] [Server thread/INFO]: <CosmosWOHatred> XD
+[03:55:09] [Server thread/INFO]: <charm_zzz> WTH
+[03:55:15] [Server thread/INFO]: <CosmosWOHatred> nvm use ours
+[03:55:19] [Server thread/INFO]: CosmosWOHatred fell out of the world
+[03:55:19] [Server thread/INFO]: [CosmosWOHatred: Killed CosmosWOHatred]
+[03:55:32] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[03:55:32] [Server thread/WARN]: charm_zzz moved too quickly! -150.2575850243329,-4.0,-984.5087980956619
+[03:59:30] [Server thread/INFO]: <charm_zzz> pls kill ghast for tear
+[03:59:38] [Server thread/INFO]: <CosmosWOHatred> how many you want
+[03:59:44] [Server thread/INFO]: charm_zzz was burnt to a crisp whilst fighting Blaze
+[03:59:55] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[04:00:11] [Server thread/INFO]: <charm_zzz> for regen pots
+[04:00:22] [Server thread/INFO]: <CosmosWOHatred> its not cheap
+[04:00:23] [Server thread/INFO]: <CosmosWOHatred> but
+[04:00:28] [Server thread/INFO]: <CosmosWOHatred> you acan make golden apples
+[04:00:55] [Server thread/INFO]: <charm_zzz> does the same thing? i thought only tears
+[04:01:05] [Server thread/INFO]: <CosmosWOHatred> golden apple gives regen also
+[04:02:05] [Server thread/INFO]: <CosmosWOHatred> with sharpness
+[04:02:14] [Server thread/INFO]: <CosmosWOHatred> might even 2 or 1 hit this things
+[04:02:20] [Server thread/INFO]: <charm_zzz> o
+[04:02:26] [Server thread/INFO]: <charm_zzz> u want sum?
+[04:02:37] [Server thread/INFO]: <CosmosWOHatred> dont have the levels for it
+[04:02:58] [Server thread/INFO]: <charm_zzz> wait u mean enchanting golden apples or
+[04:02:58] [Server thread/INFO]: <CosmosWOHatred> went from 54 to 31 today
+[04:03:10] [Server thread/INFO]: <CosmosWOHatred> you cane enchant apples in vanilla
+[04:03:18] [Server thread/INFO]: <CosmosWOHatred> cant*
+[04:03:23] [Server thread/INFO]: <CosmosWOHatred> only make the normal ones
+[04:03:30] [Server thread/INFO]: <CosmosWOHatred> but those already give good regen
+[04:03:44] [Server thread/INFO]: <CosmosWOHatred> typing is a pain :(
+[04:07:49] [Server thread/INFO]: charm_zzz was burnt to a crisp whilst fighting CosmosWOHatred
+[04:08:02] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[04:24:24] [Server thread/INFO]: CosmosWOHatred fell from a high place
+[04:24:35] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[04:25:12] [Server thread/INFO]: charm_zzz fell out of the world
+[04:25:12] [Server thread/INFO]: [charm_zzz: Killed charm_zzz]
+[05:36:50] [Server thread/INFO]: MikeEphe[/192.228.135.31:58905] logged in with entity id 772469 at (-4269.5, 104.7125, 10.260722989864878)
+[05:36:50] [Server thread/INFO]: MikeEphe joined the game
+[05:38:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2760ms or 55 ticks behind
+[05:43:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[05:44:05] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to charm_zzz]
+[05:46:02] [Server thread/INFO]: MikeEphe has made the advancement [Enchanter]
+[05:50:13] [Server thread/INFO]: CosmosWOHatred fell out of the world
+[05:50:13] [Server thread/INFO]: [CosmosWOHatred: Killed CosmosWOHatred]
+[05:52:00] [Server thread/INFO]: asdd[/112.199.237.254:50516] logged in with entity id 829576 at (-4372.304364163212, 67.0, -888.4315964992692)
+[05:52:00] [Server thread/INFO]: asdd joined the game
+[05:53:25] [Server thread/WARN]: CosmosWOHatred moved too quickly! -1.4568425528985927,0.0,10.10630768829472
+[05:53:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3242ms or 64 ticks behind
+[05:58:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3470ms or 69 ticks behind
+[06:03:32] [Server thread/WARN]: CosmosWOHatred moved too quickly! -9.810614914777148,1.0,2.7284118811494125
+[06:03:32] [Server thread/WARN]: CosmosWOHatred moved too quickly! -9.680013360745193,1.0,2.652988677386844
+[06:03:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3427ms or 68 ticks behind
+[06:08:34] [Server thread/WARN]: MikeEphe moved too quickly! -9.840291293686278,2.0013359791121417,-0.023466614682888576
+[06:08:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2157ms or 43 ticks behind
+[06:13:15] [Server thread/INFO]: asdd has made the advancement [Hot Stuff]
+[06:13:20] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to charm_zzz]
+[06:17:12] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to asdd]
+[06:17:12] [Server thread/WARN]: CosmosWOHatred moved too quickly! -128.27348336613068,-9.00465445362262,-969.7701941469279
+[06:23:04] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to charm_zzz]
+[06:23:04] [Server thread/WARN]: CosmosWOHatred moved too quickly! 91.62439983961849,34.0,931.3180529834723
+[06:26:41] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[06:26:41] [Server thread/WARN]: MikeEphe moved too quickly! 106.31689040938,10.0,978.0703918542
+[06:28:36] [Server thread/WARN]: MikeEphe moved too quickly! -7.578782095281895,0.0,6.814763647442547
+[06:28:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2320ms or 46 ticks behind
+[06:33:39] [Server thread/WARN]: charm_zzz moved too quickly! 9.00490946845548,4.419999986886978,0.2909284317765355
+[06:33:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2901ms or 58 ticks behind
+[06:34:18] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to MikeEphe]
+[06:34:18] [Server thread/WARN]: charm_zzz moved too quickly! -50.844839117789434,-8.071261558385231,67.7290727232685
+[06:34:18] [Server thread/WARN]: charm_zzz moved too quickly! -50.844839117789434,-8.071261558385231,67.7290727232685
+[06:34:18] [Server thread/WARN]: charm_zzz moved too quickly! -50.844839117789434,-8.071261558385231,67.7290727232685
+[06:36:13] [Server thread/WARN]: Boat moved wrongly!
+[06:36:13] [Server thread/WARN]: Boat moved wrongly!
+[06:36:14] [Server thread/WARN]: Boat moved wrongly!
+[06:36:14] [Server thread/WARN]: Boat moved wrongly!
+[06:36:14] [Server thread/WARN]: Boat moved wrongly!
+[06:36:47] [Server thread/INFO]: asdd has made the advancement [Take Aim]
+[06:38:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3062ms or 61 ticks behind
+[06:41:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[06:43:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[06:44:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4333ms or 86 ticks behind
+[06:45:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
+[06:46:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7454ms or 149 ticks behind
+[06:46:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3315ms or 66 ticks behind
+[06:47:06] [Server thread/INFO]: MikeEphe was impaled by Drowned
+[06:48:26] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to asdd]
+[06:48:26] [Server thread/WARN]: MikeEphe moved too quickly! 128.5760317780805,21.766367993957516,1000.6773135557289
+[06:48:39] [Server thread/INFO]: MikeEphe fell out of the world
+[06:48:39] [Server thread/INFO]: [MikeEphe: Killed MikeEphe]
+[06:49:08] [Server thread/WARN]: CosmosWOHatred moved too quickly! 10.084730248267988,2.1661092609382138,0.40295197481238176
+[06:49:08] [Server thread/WARN]: charm_zzz moved too quickly! 9.486094224770568,-0.24918707874468282,3.6904447667517104
+[06:49:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4991ms or 99 ticks behind
+[06:53:49] [Server thread/INFO]: asdd fell out of the world
+[06:53:49] [Server thread/INFO]: [asdd: Killed asdd]
+[06:54:04] [Server thread/INFO]: Dabaoo[/218.212.11.141:54988] logged in with entity id 1047409 at (1300.5174645720697, 67.0, -49.30000001192093)
+[06:54:04] [Server thread/INFO]: Dabaoo joined the game
+[06:54:13] [Server thread/WARN]: charm_zzz moved too quickly! 10.104191265225609,0.2526543990172385,-0.07825630796565974
+[06:54:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5036ms or 100 ticks behind
+[06:54:26] [Server thread/INFO]: Dabaoo lost connection: Disconnected
+[06:54:26] [Server thread/INFO]: Dabaoo left the game
+[06:55:11] [Server thread/INFO]: Dabaoo[/218.212.11.141:55037] logged in with entity id 1051442 at (1300.5174645720697, 67.0, -49.30000001192093)
+[06:55:11] [Server thread/INFO]: Dabaoo joined the game
+[06:55:19] [Server thread/INFO]: <CosmosWOHatred> hey sexy
+[06:55:22] [Server thread/INFO]: <CosmosWOHatred> good mornig
+[06:55:24] [Server thread/INFO]: <Dabaoo> hi
+[06:55:40] [Server thread/INFO]: BoBoChaCha[/218.212.11.141:50944] logged in with entity id 1055124 at (-4228.787516049701, 82.0, 93.04568865897289)
+[06:55:40] [Server thread/INFO]: BoBoChaCha joined the game
+[06:55:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
+[06:56:05] [Server thread/INFO]: <BoBoChaCha> wow so many cows now
+[06:56:11] [Server thread/INFO]: <CosmosWOHatred> hi
+[06:56:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[06:56:15] [Server thread/INFO]: charm_zzz has made the advancement [Not Today, Thank You]
+[06:56:20] [Server thread/INFO]: <BoBoChaCha> hi
+[06:56:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[06:56:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2616ms or 52 ticks behind
+[06:56:58] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID 959c86e3-0ec2-4a8c-aa02-2036f4e7a5cd
+[06:59:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5555ms or 111 ticks behind
+[07:00:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3021ms or 60 ticks behind
+[07:00:23] [Server thread/INFO]: Dabaoo was slain by Enderman
+[07:00:26] [Server thread/INFO]: BoBoChaCha was slain by Zombie
+[07:00:27] [Server thread/INFO]: <charm_zzz> LOL
+[07:00:31] [Server thread/INFO]: <charm_zzz> what r u doing
+[07:00:32] [Server thread/INFO]: <BoBoChaCha> fk
+[07:02:41] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:02:41] [Server thread/WARN]: MikeEphe moved too quickly! 3473.834931707026,-3.0,491.51058186393516
+[07:04:22] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:04:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2723ms or 54 ticks behind
+[07:07:46] [Server thread/INFO]: [BoBoChaCha: Teleported BoBoChaCha to charm_zzz]
+[07:07:46] [Server thread/WARN]: BoBoChaCha moved too quickly! 3245.5611160457834,-16.926636841821256,-150.77431036790304
+[07:09:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4202ms or 84 ticks behind
+[07:10:40] [Server thread/WARN]: Fetching addPacket for removed entity
+[07:11:14] [Server thread/INFO]: [BoBoChaCha: Teleported BoBoChaCha to MikeEphe]
+[07:11:14] [Server thread/WARN]: BoBoChaCha moved too quickly! -3.3984274774160212,-28.0,-0.11704162134442697
+[07:14:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3375ms or 67 ticks behind
+[07:15:37] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to CosmosWOHatred]
+[07:18:21] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[07:18:47] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:20:01] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[07:22:41] [Server thread/INFO]: asdd lost connection: Disconnected
+[07:22:41] [Server thread/INFO]: asdd left the game
+[07:24:06] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:24:06] [Server thread/WARN]: MikeEphe moved too quickly! -0.350390231681331,12.0,-1.127793369857116
+[07:25:30] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[07:25:30] [Server thread/WARN]: charm_zzz moved too quickly! -10.162632616453607,7.0,1.5418713187030164
+[07:25:35] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:29:46] [Server thread/INFO]: CosmosWOHatred tried to swim in lava
+[07:31:00] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to MikeEphe]
+[07:31:00] [Server thread/WARN]: charm_zzz moved too quickly! 13.325166414326304,36.0,-9.161967081451124
+[07:31:08] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to charm_zzz]
+[07:36:25] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:36:26] [Server thread/WARN]: MikeEphe moved too quickly! -86.47995208552163,1.9795880167044402,-51.19190775541768
+[07:36:55] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to charm_zzz]
+[07:37:42] [Server thread/INFO]: [BoBoChaCha: Teleported BoBoChaCha to charm_zzz]
+[07:37:42] [Server thread/WARN]: BoBoChaCha moved too quickly! -31.74223979702981,42.240647579523724,56.5940383078415
+[07:46:45] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to MikeEphe]
+[07:46:45] [Server thread/WARN]: charm_zzz moved too quickly! -44.6589153996249,-11.580000013113022,-19.299514621131834
+[07:48:12] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:49:44] [Server thread/WARN]: BoBoChaCha moved too quickly! 4.413789814673805,0.0,-9.124735128342422
+[07:49:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2942ms or 58 ticks behind
+[07:51:07] [Server thread/INFO]: charm_zzz fell out of the world
+[07:51:07] [Server thread/INFO]: [charm_zzz: Killed charm_zzz]
+[07:53:24] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:53:48] [Server thread/INFO]: BoBoChaCha was shot by Skeleton
+[07:53:56] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[07:53:56] [Server thread/WARN]: Dabaoo moved too quickly! -3274.275179589257,71.0,137.79671711945699
+[07:56:01] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[07:57:11] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[07:57:11] [Server thread/WARN]: charm_zzz moved too quickly! 1112.0672922729218,-18.0,-329.76902353638144
+[07:58:45] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to BoBoChaCha]
+[07:58:45] [Server thread/WARN]: charm_zzz moved too quickly! -1107.7926097813915,18.0,332.3416860405167
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -6.340528282475589,-9.289650613197864E-6,8.095909908712144
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -6.5964284986866915,-9.289650613197864E-6,8.401682067400685
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -6.85587200703003,-9.289650613197864E-6,8.70428593619718
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -7.119034942782946,-9.289650613197864E-6,9.003463340020886
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -7.386014095905011,-9.289650613197864E-6,9.299029485811786
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -7.65684020440176,-9.289650613197864E-6,9.590865557271627
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -7.931494379387914,-9.289650613197864E-6,9.878905601653315
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -8.20991741146463,-9.289650613197864E-6,10.16313002523475
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -8.492020191646134,-9.289650613197864E-6,10.443556375308049
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -8.777690348377291,-9.289650613197864E-6,10.720233709415425
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -9.066795689516312,-9.289650613197864E-6,10.993240357019545
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -9.359194018678409,-9.289650613197864E-6,11.262672535901828
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -9.654734813664618,-9.289650613197864E-6,11.528643105359833
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -9.9528521062266,-9.289650613197864E-6,11.791841502606303
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -10.252634812000906,-9.289650613197864E-6,12.053401810125877
+[07:59:46] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! -10.553306064140997,-9.289650613197864E-6,12.314246972862065
+[07:59:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[08:03:33] [Server thread/INFO]: <Dabaoo> killing the sheep
+[08:05:49] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[08:05:49] [Server thread/WARN]: charm_zzz moved too quickly! 743.0177578583803,-28.0,127.6190944008842
+[08:08:37] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to MikeEphe]
+[08:08:37] [Server thread/WARN]: charm_zzz moved too quickly! -13.412750876619612,8.427261834759058,54.6822561141752
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 8.007587371002046,0.0,-6.636150684905374
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 8.315571500670103,0.0,-6.891387249721049
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 8.623555630338615,0.0,-7.1466238145370085
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 8.931539760007126,0.0,-7.401860379353195
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 9.239523889676093,0.0,-7.657096944169609
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 9.54750801934506,0.0,-7.912333508986194
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 9.85549214901448,0.0,-8.167570073802949
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 10.163476278683902,0.0,-8.422806638619818
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 10.471460408353323,0.0,-8.678043203436857
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 10.7794445380232,0.0,-8.93327976825401
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 11.087428667693075,0.0,-9.188516333071277
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 11.395412797362951,0.0,-9.443752897888658
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 11.703396927032827,0.0,-9.698989462706095
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 12.011381056703158,0.0,-9.954226027523589
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 12.319365186373489,0.0,-10.209462592341197
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 12.62734931604382,0.0,-10.464699157158861
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 12.93533344571415,0.0,-10.719935721976583
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 13.24331757538448,0.0,-10.975172286794361
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 13.551301705054811,0.0,-11.230408851612196
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 13.859285834725597,0.0,-11.485645416430089
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 14.167269964396382,0.0,-11.74088198124798
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 14.475254094067168,0.0,-11.99611854606593
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 14.783238223737953,0.0,-12.251355110883878
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 15.091222353408739,0.0,-12.506591675701884
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 15.399206483079524,0.0,-12.761828240519947
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 15.70719061275031,0.0,-13.017064805337952
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 16.015174742421095,0.0,-13.272301370156015
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 16.32315887209188,0.0,-13.527537934974134
+[08:09:49] [Server thread/WARN]: MikeEphe moved too quickly! 8.405779244746554,-4.018670615649661,4.132513084060918
+[08:09:49] [Server thread/WARN]: Boat (vehicle of CosmosWOHatred) moved too quickly! 16.631143001762666,0.0,-13.782774499792197
+[08:09:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2950ms or 59 ticks behind
+[08:10:45] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[08:12:02] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to charm_zzz]
+[08:12:49] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to charm_zzz]
+[08:13:22] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to charm_zzz]
+[08:13:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[08:13:59] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to charm_zzz]
+[08:14:29] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to MikeEphe]
+[08:14:29] [Server thread/WARN]: charm_zzz moved too quickly! -7.823964031648302,-4.925456390037191,-17.493747263488103
+[08:14:31] [Server thread/INFO]: charm_zzz drowned
+[08:14:55] [Server thread/WARN]: CosmosWOHatred moved too quickly! 8.730898351860105,5.419999986886978,-1.6546907254179075
+[08:14:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4114ms or 82 ticks behind
+[08:15:11] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[08:15:11] [Server thread/WARN]: charm_zzz moved too quickly! 1870.5430814508095,7.0,-339.3469001039847
+[08:15:17] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[08:15:17] [Server thread/WARN]: MikeEphe moved too quickly! 845.4436671015346,18.47801339362504,-596.0838272525978
+[08:16:38] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[08:16:38] [Server thread/WARN]: MikeEphe moved too quickly! 88.0802369314822,1.0013359791121417,60.250502891465715
+[08:16:38] [Server thread/WARN]: MikeEphe moved too quickly! 88.0802369314822,1.0013359791121417,60.250502891465715
+[08:16:47] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[08:19:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2190ms or 43 ticks behind
+[08:21:12] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to MikeEphe]
+[08:21:36] [Server thread/INFO]: Dabaoo lost connection: Disconnected
+[08:21:36] [Server thread/INFO]: Dabaoo left the game
+[08:21:43] [Server thread/INFO]: Dabaoo[/218.212.11.141:55329] logged in with entity id 1275353 at (-4272.065206920945, 82.0625, 79.5303559170845)
+[08:21:43] [Server thread/INFO]: Dabaoo joined the game
+[08:24:04] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[08:24:10] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[08:28:35] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[08:31:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[08:32:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7301ms or 146 ticks behind
+[08:32:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2423ms or 48 ticks behind
+[08:33:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[08:34:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6728ms or 134 ticks behind
+[08:34:26] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[08:34:58] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[08:34:58] [Server thread/WARN]: Fetching addPacket for removed entity
+[08:35:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2673ms or 53 ticks behind
+[08:40:22] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to Dabaoo]
+[08:41:45] [Server thread/INFO]: <charm_zzz> jy pls fish for pufferfish
+[08:42:46] [Server thread/INFO]: <Dabaoo> puffer bish
+[08:48:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[08:48:36] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to CosmosWOHatred]
+[08:49:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16864ms or 337 ticks behind
+[08:49:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5399ms or 107 ticks behind
+[08:49:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3802ms or 76 ticks behind
+[08:50:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11899ms or 237 ticks behind
+[08:50:21] [Server thread/INFO]: Dabaoo has made the advancement [Fishy Business]
+[08:50:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11374ms or 227 ticks behind
+[08:51:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7623ms or 152 ticks behind
+[08:51:08] [Server thread/INFO]: CosmosWOHatred was blown up by charm_zzz
+[08:51:24] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to MikeEphe]
+[08:51:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12385ms or 247 ticks behind
+[08:51:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10797ms or 215 ticks behind
+[08:52:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7374ms or 147 ticks behind
+[08:52:25] [Server thread/INFO]: [charm_zzz: Teleported charm_zzz to BoBoChaCha]
+[08:52:25] [Server thread/WARN]: charm_zzz moved too quickly! -4358.08536212091,14.0,276.78568277694933
+[08:52:52] [Server thread/INFO]: [Dabaoo: Set the weather to rain]
+[08:53:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[08:53:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7959ms or 159 ticks behind
+[08:54:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10395ms or 207 ticks behind
+[08:54:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8756ms or 175 ticks behind
+[08:54:49] [Server thread/INFO]: [MikeEphe: Teleported MikeEphe to CosmosWOHatred]
+[08:55:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8416ms or 168 ticks behind
+[08:55:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8095ms or 161 ticks behind
+[08:55:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5812ms or 116 ticks behind
+[08:56:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11620ms or 232 ticks behind
+[08:56:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15205ms or 304 ticks behind
+[08:57:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13124ms or 262 ticks behind
+[08:57:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8990ms or 179 ticks behind
+[08:58:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7268ms or 145 ticks behind
+[08:58:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12367ms or 247 ticks behind
+[08:59:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28797ms or 575 ticks behind
+[08:59:26] [Server thread/WARN]: CosmosWOHatred moved too quickly! 8.71737002736387,-3.6410666270158885,4.208364512135944
+[08:59:26] [Server thread/WARN]: BoBoChaCha moved too quickly! 3.5344823939603884,0.0,9.450439142581047
+[08:59:42] [Server thread/INFO]: [CosmosWOHatred: Teleported CosmosWOHatred to MikeEphe]
+[08:59:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18877ms or 377 ticks behind
+[09:00:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6790ms or 135 ticks behind
+[09:00:18] [Server thread/INFO]: [Dabaoo: Teleported Dabaoo to BoBoChaCha]
+[09:00:42] [Server thread/WARN]: CosmosWOHatred moved too quickly! 4.297620385693733,2.252203340253729,8.873807800251242
+[09:01:01] [Server thread/INFO]: charm_zzz lost connection: Disconnected
+[09:01:01] [Server thread/INFO]: charm_zzz left the game
+[09:01:10] [Server thread/WARN]: CosmosWOHatred moved too quickly! 10.213685324673406,0.9564643798524983,-0.7469343850725174
+[09:01:22] [Server Watchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
+[09:01:22] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[09:01:24] [Server Watchdog/ERROR]: This crash report has been saved to: /home/kensim/MC_Server_Charmaine/./crash-reports/crash-2019-06-08_09.01.24-server.txt
+[09:01:28] [Server thread/INFO]: Stopping server
+[09:01:28] [Server thread/INFO]: Saving players
+[09:01:28] [Server thread/INFO]: MikeEphe lost connection: Internal Exception: java.lang.StackOverflowError
+[09:01:28] [Server thread/INFO]: MikeEphe left the game
+[09:01:28] [Server thread/INFO]: Dabaoo lost connection: Internal Exception: java.lang.StackOverflowError
+[09:01:28] [Server thread/INFO]: Dabaoo left the game
+[09:01:28] [Server thread/INFO]: Saving worlds
+[09:01:28] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
